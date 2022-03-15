@@ -1,4 +1,4 @@
-# Hugo website for SGP 2021
+# Hugo website for SGP 2022
 
 > :warning: **_Do not edit `docs/` directly_**
 
@@ -10,7 +10,7 @@ On your local machine, install hugo
 
 Then clone this repository
 
-    git clone https://github.com/sgp2021/sgp2021.github.io.git
+    git clone https://github.com/sgp2022/sgp2022.github.io.git
 
 Change into this directory
 
@@ -28,6 +28,9 @@ arrays/lists/maps in `config.yaml` (or `content/*.md` markdown files).
 Once you're happy with your changes, then you can "deploy" your changes by
 overwriting the cached version of the website in `docs/`
 
-    hugo -D -d docs
+NOTE: We are still developing the website!!! 
+!!DONT PUSH ANYTHING TO THE DOCS FOLDER YET!!
+
+    #hugo -D -d docs
 
 Then `git commit` your changes (including those to `docs/` and `git push`.
