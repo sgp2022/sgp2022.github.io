@@ -14,7 +14,7 @@ Then clone this repository
 
 Change into this directory
 
-    cd sgp2021.github.io
+    cd sgp2022.github.io
 
 Run the hugo server in the background while you're testing your edits:
 
