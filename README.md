@@ -31,6 +31,6 @@ overwriting the cached version of the website in `docs/`
 NOTE: We are still developing the website!!! 
 !!DONT PUSH ANYTHING TO THE DOCS FOLDER YET!!
 
-    #hugo -D -d docs
+    # hugo -D -d docs ######## NOT YET!!! ###
 
 Then `git commit` your changes (including those to `docs/` and `git push`.
