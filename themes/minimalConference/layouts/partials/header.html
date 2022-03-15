@@ -1,0 +1,65 @@
+<div id=banner-outer>
+<div id=banner-container>
+  <a href={{ .Site.BaseURL | relLangURL }}><img id=banner src="/images/banner_image.png"></a>
+</div>
+</div>
+
+<div id="nav-border" class="container">
+
+    <nav id="nav" class="nav justify-content-center">
+        {{ range .Site.Menus.main }}
+        <a class="nav-link" href="{{ .URL | relLangURL }}">
+        {{T .Name }}
+        </a>
+        {{ end }}
+        <!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.com/e/symposium-on-geometry-processing-2021-tickets-156941380895" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-156941380895" type="button">{{T "register"}}</button>
+<noscript></a>{{T "register"}}</noscript>
+
+<script src="https://www.eventbrite.ca/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '156941380895',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-156941380895',
+        onOrderComplete: exampleCallback
+    });
+</script>
+    </nav>
+    <!-- Include language menu via
+      https://regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/ -->
+
+</div>
+
+<div id=languageBanner>
+{{ if eq .Site.Language.LanguageName "English" }}
+  {{ range .Translations }}
+    {{ if eq .Language.LanguageName "Spanish" }}
+      <a href="{{ .Permalink }}">Versión en español (en fase beta)</a>
+    {{ else if eq .Language.LanguageName "Japanese" }}
+      <a href="{{ .Permalink }}">日本語版（ベータ）</a>
+    {{end}}
+  {{ end}}
+{{ else if eq .Site.Language.LanguageName "Spanish" }}
+  {{ range .Translations }}
+    {{ if eq .Language.LanguageName "English" }}
+      La versión en español está en fase beta. <a href="{{ .Permalink }}">Ver web oficial (en inglés).</a>
+    {{ end}}
+  {{ end}}   
+{{ else if eq .Site.Language.LanguageName "Japanese" }}
+  {{ range .Translations }}
+    {{ if eq .Language.LanguageName "English" }}
+        <a href="{{ .Permalink }}">英語版に戻る.</a>
+    {{ end}}
+  {{ end}}   
+{{ else }}
+{{ end}}
+</div>

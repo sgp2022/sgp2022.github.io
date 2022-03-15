@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div id=simple-static>
+{{ .Content }}
+
+<h2>2021 {{T "organizational_team"}}</h2>
+
+<table class=chairs-table>
+  {{range .Site.Params.chairs}}
+  <tr>
+  <td class=chairs-name>
+    {{T .id }}
+  </td>
+  <td class=chairs-items>
+    <ul>
+    {{range .items}}
+    <li>
+      <span class=line><a href="mailto:{{.email}}">{{ .name }}</a>,</span>
+      <span class=line>{{.affiliation}}</span>
+    </li>
+    {{end}}
+    </ul>
+  </td>
+  </tr>
+  {{end}}
+</table>
+
+{{ $flags := .Site.Params.flagEmojis }}
+{{ range .Site.Params.committees }}
+<h2> {{T .id }} </h2>
+
+  {{ if (not (isset . "members")) | or (eq .members "") }}
+  <p>(stay tuned for full list of members)</p>
+  {{"<!--  Posticon. Otherwise show defined icon //-->" | safeHTML}}
+  {{ else }}
+    <ul class=committee-list>
+      {{range .members}}
+      <li>
+        <table><tr><td>
+        {{ if ((isset . "country")) | or (not (eq .country "")) }}
+          {{ if (index $flags .country) }}
+            {{ index $flags .country }}&nbsp;
+          {{ end }}
+        {{ end }}
+            </td><td>
+        <span class="">{{ .name }}</span>{{ if ((isset . "affiliation")) | or (not (eq .affiliation "")) }}, <span class="">{{ .affiliation }}</span>{{ end }}
+            </td></tr></table>
+      </li>
+    {{ end }}
+    </ul>
+    {{ end }}
+{{ end }} 
+
+{{ end }}
