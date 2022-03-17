@@ -52,26 +52,33 @@ Params:
     - id: conference
       date: "July 4–6, 2022"
   chairs:
-  - id: conference_co_chairs
-    items: 
-      - name: "Name Name"
-        email: "example@example.edu"
-        affiliation: "University of Example"
+#  - id: conference_co_chairs
+#    items: 
+#      - name: "Name Name"
+#        email: "example@example.edu"
+#        affiliation: "University of Example"
   - id: technical_program_co_chairs
     items: 
-      - name: "Name Name"
-        email: "example@example.edu"
-        affiliation: "University of Example"
+      - name: "Marcel Campen"
+        email: ""
+        affiliation: "(Osnabrück University)"
+      - name: "Michela Spagnuolo"
+        email: ""
+        affiliation: "(CNR)"
   - id: graduate_school_co_chairs
     items: 
-      - name: "Name Name"
-        email: "example@example.edu"
-        affiliation: "University of Example"
+      - name: "Ruizhen Hu"
+        email: ""
+        affiliation: "(Shenzhen University)"
+      - name: "Teseo Schneider"
+        email: ""
+        affiliation: "(University of Victoria)"
+
   - id: awards_chair
     items: 
-      - name: "Name Name"
-        email: "example@example.edu"
-        affiliation: "University of Example"
+      - name: "Marc Alexa"
+        email: "firstname.lastname at tu-berlin.de"
+        affiliation: "Technische Universität Berlin"
   committees:
     - id: technical_papers_committee
       members:
