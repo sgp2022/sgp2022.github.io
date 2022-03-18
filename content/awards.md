@@ -4,6 +4,7 @@ layout: "simple-static"
 type: "page"
 ---
 
+<!--
 ## Best Paper 3rd Place
 
 Sponsored by ![adobe logo](/images/adobe.png#logo_award)
@@ -49,5 +50,7 @@ Matteo Bracci, Marco Tarini, Nico Pietroni, Marco Livesu, Paolo Cignoni
 **"Poisson Surface Reconstruction"**  
 Michael Kazhdan, Matthew Bolitho and Hugues Hoppe  
 _Symposium on Geometry Processing, 2006_
+
+-->
 
 [Previous awardees.](http://awards.geometryprocessing.org/)
