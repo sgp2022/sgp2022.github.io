@@ -195,87 +195,104 @@ speakers:
     bio: "Bio."
     portrait: /images/brportrait.jpg
 graduateSchoolCourses:
-  - title: Shape approximation and applications
+  - title: Learning on Point Clouds
     speakers:
-      - name: Tamy Boubekeur
-        url: https://perso.telecom-paristech.fr/boubek/
-        affiliation: Adobe Research
-    abstract: "Shape approximation methods aim at generating a light weight proxy from high resolution surfaces, such as 3D scans. The proxy can then be used a convenient substitute to the actual shape for various compute-intensive tasks such as retrieval, physics simulation, freeform modeling, level-of-detail rendering, performance capture reverse engineering and more. Depending on the application, the nature and desired properties of the proxy may vary. Often, its efficient yet controllable generation remains an open problem. In this course, we will discuss a variety of approaches to shape approximation, including mesh simplification, shape recognition, mathematical morphology and probabilistic models. We will also review mechanisms to link a proxy to the original shape, establishing ways to propagate information from one to the other. Last, we'll discuss applications and some research directions in this space that could be fruitful for computer graphics and beyond."
-    teaser: /images/gsshapeapprox.jpg
-    youtube: https://www.youtube.com/embed/CjBTg1eXZz8
-  - title: Projective Dynamics/Simulation
+      - name: Hao Su
+        url: 
+        affiliation: 
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/...
+  - title: Learning on 3D Structures
     speakers:
-      - name: Tiantian Liu
-        url: https://tiantianliu.cn/
-        affiliation: Microsoft Research Asia
-    abstract: "Physically-based simulations have been used more and more in recent interactive applications. In this talk, we will cover the key ideas we have been using to accelerate our simulations,  utilizing the geometric information of the simulated objects. We will start from Projective Dynamics, an acceleration method to simulate mass-spring systems, and some simple finite element models such as the as-rigid-as-possible model. We show that Projective Dynamics can be seen as a quasi-Newton method that approximates the Hessian matrix of the elastic potential with a topological-aware Laplacian matrix. Other than assembling the Laplacian matrices, we can also use the mesh topology to propagate information throughout the entire simulated mesh. We will then show an efficient unstructured Galerkin multigrid algorithm using this idea. We summarize these strategies we used as localizing the nonlinearity and grouping the similars. During this course, we use these strategies as an example of how we use geometric information to accelerate simulations. And we look forward to seeing more geometric-based ideas in accelerated physically-based simulations."
-    teaser: /images/gsdynamics.jpg
-    youtube: https://www.youtube.com/embed/4Vk7Ar3COJA
-  - title: "Geometric Computing with Python"
-    teaser: /images/gspython.jpg
-    abstract: "In this course, we present an easy-to-use Python-based workflow for applications in geometric computing and visualization. Our libraries have a shallow learning curve while also enable programmers to accomplish a wide variety of complex tasks. Furthermore, we adopt NumPy arrays as a common interface, which greatly simplifies serialization and interoperability with existing scientific computing packages. Finally, our libraries are performant, with most computations in C++ and a minimal overhead interface to Python. In addition, we present a demo on using the libraries to implement a geometry processing algorithm with ease. By the end of the course, attendees will have exposure to a set of simple, composable, and high-performance tools for geometric computing."
+      - name: Daniel Ritchie
+        url: 
+        affiliation: 
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/...    
+  - title: 3D Morphable Face Models
     speakers:
+      - name: Bernhard Egger
+        url: 
+        affiliation: 
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/...    
+  - title: Character animation
+    speakers:
+      - name: Taku Komura
+        url: 
+        affiliation: 
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/...    
+  - title: Geometric Computing for Biomedicine
+    speakers:
+      - name: Tao Ju
+        url: 
+        affiliation: 
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/... 
+  - title: High-order mesh generation
+    speakers: 
       - name: Daniele Panozzo
         url: https://cims.nyu.edu/gcl/daniele.html
         affiliation: NYU
-      - name: Zhongshi Jiang
-        url: https://cs.nyu.edu/~zhongshi/
-        affiliation: NYU
-    youtube: https://www.youtube.com/embed/TcPR_239enI
-  - title: Maps Between Surfaces
-    speakers:
-      - name: Marcel Campen
-        url: "http://graphics.cs.uos.de/"
-        affiliation: "Osnabrück University"
-      - name: Patrick Schmidt
-        url: "https://www.graphics.rwth-aachen.de/person/232/"
-        affiliation: "RWTH Aachen University"
-    abstract: "Maps between the surfaces of two or more 3D models are a core building block in many geometry processing tasks. They allow transferring data (e.g. textures, labels, annotations, animations) from one object to another, they are used to establish correspondence within a data set (e.g. for machine learning purposes), and they are required when algorithms process multiple shapes at once (e.g. in co-analysis contexts or in co-processing scenarios like compatible remeshing). In this course we dive into theoretical as well as practical aspects of such maps from a computational point of view. Our main focus will be on homeomorphisms: maps that satisfy strict continuity and bijectivity criteria. These avoid any kind of undesirable tears or folds and thus provide a well-defined foundation for reliable algorithms. In three blocks, we will learn (1) how to computationally represent maps, (2) how to initially construct valid maps, in particular homeomorphisms, and (3) how to improve their quality via continuous optimization. In each chapter, we will work our way up from the well-studied case of maps in the plane to the more challenging case of maps between discrete curved surfaces."
-    teaser: /images/gsmaps.jpg
-    youtube: https://www.youtube.com/embed/jMWJ79EpyfQ
-  - title: Deep Learning on Meshes
-    speakers:
-      - name: Rana Hanocka
-        url: https://www.cs.tau.ac.il/~hanocka/
-        affiliation: Tel Aviv University
-    abstract: "The irrefutable success of deep learning on structured data (such as images and text) has sparked significant interest in its applicability to problems in geometry processing. In this talk, we will discuss the key challenges and current solutions for using mesh convolutional neural networks on the unstructured mesh representation for problems in geometry processing. We will outline the design choices and implications of (1) learning on different mesh elements (vertices, faces, edges); (2) invariance to rigid transformations; (3) invariance and equivariance to the order of mesh elements; (4) input features, among others. We discuss existing applications of mesh convolutional neural networks, as well as potential promising future directions."
-    teaser: /images/gslearning.jpg
-    youtube: https://www.youtube.com/embed/qVctAmMGlQQ
-  - title: Directional Field Processing
-    youtube: https://www.youtube.com/embed/wKG8SmWch2Y 
-    speakers:
-      - name: Amir Vaxman 
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/... 
+  - title: Fusion 360 Gallery Dataset
+    speakers: 
+      - name: Joseph Lambourne
+        url: 
+        affiliation: 
+      - name: Karl Willis
+        url: 
+        affiliation:         
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/... 
+  - title: ScanNet Dataset
+    speakers: 
+      - name: Angela Dai
+        url: 
+        affiliation: 
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/... 
+  - title: Code Replicability
+    speakers: 
+      - name: Nicolas Mellado
+        url: 
+        affiliation: 
+      - name: Julie Digne
+        url: 
+        affiliation:    
+      - name: Nicolas Bonneel
+        url: 
+        affiliation: 
+      - name: David Coeurjolly
+        url: 
+        affiliation:         
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/...    
+  - title: Directional
+    speakers: 
+      - name: Amir Vaxman
         url: https://webspace.science.uu.nl/~vaxma001/
         affiliation: Utrecht University
-    teaser: /images/gsfields.png
-    abstract: "Directional fields are core objects of geometry processing. They represent movement, flow, alignment, or geometric transformations. Their applications range from fluid simulation, through architectural design, to mesh generation. We will discuss the theoretical and empirical challenges in representing and discretizing directional fields on surfaces and in volumes, and some of their desired properties with relation to the applications; namely, smoothness, integrability, constrained size or symmetry, and more. We will further discuss how recent approaches optimized for these properties. Finally, we will demonstrate some of the common design paradigms for directional fields using the software library Directional."
-  - title: Digital Geometry
-    youtube: https://www.youtube.com/embed/Cwf16UuT0ec
-    abstract: "Digital Geometry is about the processing of topological and geometrical objects defined in regular lattices (e.g. collection of voxels in 3d). Whereas representing quantities on regular, hierarchical or adaptive grids is a classical approach to spatially discretize a domain, processing the geometry of such objects requires us to revisit classical results from continuous or discrete mathematics. In this course, we will review tools and results that have been designed specifically to the geometry processing in Z^d. More precisely, we will present how processing regularly spaced data with integer coordinate embeddings may impact computational geometry algorithms, and how stability results (multigrid convergence) of differential quantities estimators (curvature tensor, Laplace-Beltrami,..) on boundaries of digital objects can be designed. Finally, we will present some elements of discrete calculus on digital surfaces.
-Lastly, we will briefly give a demo of the DGtal library (dgtal.org) which contains a wide class of algorithms dedicated to the processing of such specific data."
-    teaser: /images/gsdiscrete.jpg
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/...     
+  - title: Blender for Paper
     speakers: 
-      - name: David Coeurjolly
-        url: https://perso.liris.cnrs.fr/david.coeurjolly/
-        affiliation: CNRS
-      - name: Jacques-Olivier Lachaud
-        url: http://www.lama.univ-savoie.fr/pagesmembres/lachaud/People/LACHAUD-JO/person.html
-        affiliation: University of Savoie
-  - title: "An Introduction to Geometry Processing Programming in MATLAB with gptoolbox"
-    abstract: "It is easy and convenient to use MATLAB for research and teaching in geometry processing. In this tutorial we will teach you the very basics of geometry processing in MATLAB using the simple library gptoolbox, which implements a plethora of standard geometry processing algorithms.
-We will show you how to do basic linear algebra operations in MATLAB, how to manipulate geometric objects, how to display surfaces, and how to do some popular geometry processing operations in MATLAB's powerful interactive environment."
-    teaser: 
-    speakers: 
-      - name: Name
+      - name: Silvia Sellán
         url: 
-        affiliation: University
-    youtube: 
-  - title: Title
-    speakers:
-      - name: Name
-        url: url
-        affiliation: Affilitation
-    abstract: "Abstract"
-    teaser: /images/gslaplacian.jpg
-    youtube: yt.com
+        affiliation: 
+    abstract: "Abstract TBD"
+    teaser: /images/unknown.jpg
+    youtube: https://www.youtube.com/embed/...      
 ---
