@@ -31,8 +31,8 @@ graduateSchoolCourses:
   - title: Learning on Point Clouds
     speakers:
       - name: Hao Su
-        url: 
-        affiliation: 
+        url: https://cseweb.ucsd.edu/~haosu/
+        affiliation: UC San Diego
     abstract: "Abstract TBD"
     teaser: /images/unknown.jpg
     youtube: https://www.youtube.com/embed/...
@@ -63,8 +63,8 @@ graduateSchoolCourses:
   - title: Geometric Computing for Biomedicine
     speakers:
       - name: Tao Ju
-        url: 
-        affiliation: 
+        url: https://www.cse.wustl.edu/~taoju/
+        affiliation: Washington University in St. Louis
     abstract: "Abstract TBD"
     teaser: /images/unknown.jpg
     youtube: https://www.youtube.com/embed/... 
