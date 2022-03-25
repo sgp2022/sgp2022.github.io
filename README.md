@@ -28,9 +28,7 @@ arrays/lists/maps in `config.yaml` (or `content/*.md` markdown files).
 Once you're happy with your changes, then you can "deploy" your changes by
 overwriting the cached version of the website in `docs/`
 
-NOTE: We are still developing the website!!! 
-!!DONT PUSH ANYTHING TO THE DOCS FOLDER YET!!
 
-    # hugo -D -d docs ######## NOT YET!!! ###
+    # hugo -D -d docs 
 
 Then `git commit` your changes (including those to `docs/` and `git push`.
