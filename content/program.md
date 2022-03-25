@@ -2,22 +2,15 @@
 title: "Program"
 layout: "program"
 type: "page"
+ 
+
+---
+
+<!-- 
+
 paperUSB: https://cloud.fraunhofer.at/s/sY2mezd4NgRRoPM/download/USB-SGP2021.zip
-paperURL: https://diglib.eg.org/handle/10.2312/2633079
-paperSessions: 
-  - name: Session Name
-    youtube: https://www.youtube.com/embed/videoseries?list=
-    chair: Session Chair
-    teaser: /images/unknown.jpg
-    papers:
-      - title: "Paper1"
-        authors:
-          - name: Author1
-          - name: Author2
-      - title: "Paper2"
-        authors: 
-          - name: Author1
-          - name: Author2
+paperURL: https://diglib.eg.org/handle/10.2312/2633079     
+
 speakers: 
   - name: Keynote speaker Name
     youtube: https://www.youtube.com/embed/
@@ -27,6 +20,8 @@ speakers:
     abstract: "Abstract."
     bio: "Bio."
     portrait: /images/brportrait.jpg
+
+    
 graduateSchoolCourses:
   - title: Learning on Point Clouds
     speakers:
@@ -127,5 +122,22 @@ graduateSchoolCourses:
         affiliation: 
     abstract: "Abstract TBD"
     teaser: /images/unknown.jpg
-    youtube: https://www.youtube.com/embed/...      
----
+    youtube: https://www.youtube.com/embed/...          
+    
+paperSessions: 
+  - name: Session Name
+    youtube: https://www.youtube.com/embed/videoseries?list=
+    chair: Session Chair
+    teaser: /images/unknown.jpg
+    papers:
+      - title: "Paper1"
+        authors:
+          - name: Author1
+          - name: Author2
+      - title: "Paper2"
+        authors: 
+          - name: Author1
+          - name: Author2   
+          
+          
+-->
