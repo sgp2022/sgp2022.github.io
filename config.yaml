@@ -39,6 +39,8 @@ Params:
     - id: "conference"
       date: "July 4-6, 2022"
   importantDates:
+    - id: abstract_submission
+      date: "April 7, 2022, 23:59 UTC"
     - id: paper_submission
       date: "April 11, 2022, 23:59 UTC"
     - id: notification_of_acceptance
