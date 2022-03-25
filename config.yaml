@@ -11,7 +11,14 @@ languages:
     processing. In this research area, concepts from mathematics, computer science,
     and engineering are studied and applied to offer new insights and design
     efficient algorithms for acquisition, modeling, analysis, manipulation,
-    simulation and other types of processing of 3D models and shape collections."
+    simulation and other types of processing of 3D models and shape collections.
+
+    
+    Continuing a successful tradition from previous years, SGP will also offer a 
+    Graduate School on July 2nd and 3rd, targeted at students and researchers new 
+    to the field. Courses will be taught by leading experts and complemented by 
+    interactive demonstrations to provide in-depth knowledge of recent and 
+    fundamental aspects of geometry processing."
     sponsorPlea: "if you like to become a sponsor SGP 2022."
     submitNow: "Begin your submision now."
 menu:
@@ -32,6 +39,7 @@ menu:
       url: /past/
       weight: 50
 Params:
+  sponsorContact: "contact@geometryprocessing.org"
   submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP_2022"
   events: 
     - id: "graduate_school"
@@ -44,7 +52,7 @@ Params:
     - id: paper_submission
       date: "April 11, 2022, 23:59 UTC"
     - id: notification_of_acceptance
-      date: "May 10, 2022"
+      date: "May 30, 2022"
     - id: revised_version_due
       date: "June 10, 2022, 23:59 UTC"
     - id: camera_ready_due
