@@ -12,7 +12,7 @@
   <p class=code-of-conduct>All are welcome at the <i>Symposium on Geometry Processing 2022</i>.<br>
   Attendees, presenters, volunteers and sponsors are subject to the <a class=line
     href=https://docs.google.com/document/d/1ywKq2UizWWmDAacSV79DbStPimQhqDiFX5mOZXlt1yI/>SGP
-    2021 Code of Conduct</a>.</p>
+    2022 Code of Conduct</a>.</p>
 
   <h2 id=keynotes>{{T "keynotes" }}</h2>
 {{range .Params.speakers }}
@@ -84,8 +84,10 @@
 
 <h2 id=technical-papers>{{T "technical_papers" }}</h2>
 
+<!--
 <h4><a href={{.Params.paperURL}}>Proceedings on EG Digital Library</a></h4>
 <h4><a href={{.Params.paperUSB}}>Virtual USB Key (1.1GB)</a></h4>
+-->
 
 {{range .Params.paperSessions}}
   <h3 class=sessionName id={{ .name | urlize }}>{{ .name}}
