@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on SGP 2022 - Symposium on Geometry Processing 2022</title>
-    <link>https://sgp2021.github.io/tags/</link>
+    <link>https://sgp2022.github.io/tags/</link>
     <description>Recent content in Tags on SGP 2022 - Symposium on Geometry Processing 2022</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sgp2021.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://sgp2022.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
