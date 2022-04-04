@@ -63,8 +63,8 @@
 :root {
   --parchment: #eafaef;
   --dark-blue: #282b27;
-  --turquoise: #f74c4c;
-  --footer-height: 50px;
+  --turquoise: #fcfcfc;
+  --footer-height: 150px;
   --green: #27a8a2;
   --red: #f74c4c;
   --blue: #f74c4c;
@@ -73,14 +73,22 @@
   --titlefont: torontoSubway, sans-serif;
   --headerfont: var(--titlefont);
   --logoMaxWidth: 500px;
+  
+  --planet-background: #efe4d0;
+  --planet-menu-bg: #3580db;
+  --planet-line-section-1: #3580db;
+  --planet-line-section-2: #da4646;
+  --planet-line-section-3: #219228;
 }
 
 body
 {
-  background-color: var(--parchment);
+  background-color: var(--planet-background);
   color: var(--dark-blue);
   min-width: 400px;
   font-size: 12pt;
+  /* max-width: 2000px; */
+  margin: auto;
 }
 
 table
@@ -102,11 +110,11 @@ a:hover
 #banner-outer
 {
   width: 100%;
-  background-color: var(--dark-blue);
+  background-color: var(--planet-background);
 }
 #banner-container
 {
-  max-width: 1000px;
+  width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -114,26 +122,26 @@ a:hover
 
 img#banner
 {
-  width: auto;
-  height: auto;
+  height: 100%;
+  width: 100%;
   min-width: 100%;
   min-height: 100%;
-  width: 100%;
 }
 
 /* navigation bar */
 
 #nav-border
 {
-  background-color: var(--turquoise);
+  background-color: var(--planet-menu-bg);
   max-width: 100%;
+  border-top:4px solid #fcfcfc;
 }
 
 #nav-border #nav a
 {
   font-family: var(--headerfont);
   font-size: 1.1em;
-  color: var(--dark-blue);
+  color: #f3f3f3;
 }
 
 /* https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
@@ -153,7 +161,7 @@ img#banner
 {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
+  max-width: 1500px;
   padding-left: 25px;
   padding-right: 25px;
   width: 90%;
@@ -225,10 +233,13 @@ div#footer
   position: absolute;
   bottom: 0;
   height: var(--footer-height);
-  background-repeat: repeat-x;
-  background-image: url("/images/small_image.jpg");
-  background-size: auto 50px;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll; 
+  background-image: url("/images/small_image.png") ;
+  width: auto;
+  min-width: 100%;
 }
 
 div#footer-text-container
@@ -404,26 +415,26 @@ li
 
 h2:nth-of-type(3n+1)
 {
-  border-bottom: 6px solid var(--red);
+  border-bottom: 6px solid var(--planet-line-section-1);
 }
 h2:nth-of-type(3n+2)
 {
-  border-bottom: 6px solid var(--green);
+  border-bottom: 6px solid var(--planet-line-section-2);
 }
 h2:nth-of-type(3n+0)
 {
-  border-bottom: 6px solid var(--blue);
+  border-bottom: 6px solid var(--planet-line-section-3);
 }
 
 div#events
 {
-  background-color: var(--dark-blue);
-  color: var(--parchment);
+  background-color: #c7aa68;
+  color: #f3f3f3;
   font-family: var(--headerfont);
   font-size: 2em;
   text-align: center;
   text-align-last: center;
-  border-radius: 0px 0px 25px 25px;
+  border-radius: 0px 0px 3px 3px;
   line-height: 90%;
 }
 div#events p
