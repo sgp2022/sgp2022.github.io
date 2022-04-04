@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Index on SGP 2022 - Symposium on Geometry Processing 2022</title>
+    <link>https://sgp2022.github.io/</link>
+    <description>Recent content in Index on SGP 2022 - Symposium on Geometry Processing 2022</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://sgp2022.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awards</title>
+      <link>https://sgp2022.github.io/awards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2022.github.io/awards/</guid>
+      <description>Previous awardees.</description>
+    </item>
+    
+    <item>
+      <title>Organization</title>
+      <link>https://sgp2022.github.io/organization.es/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2022.github.io/organization.es/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organization</title>
+      <link>https://sgp2022.github.io/organization.jp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2022.github.io/organization.jp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organization</title>
+      <link>https://sgp2022.github.io/organization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2022.github.io/organization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Previous Symposia</title>
+      <link>https://sgp2022.github.io/past.es/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2022.github.io/past.es/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Previous Symposia</title>
+      <link>https://sgp2022.github.io/past/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2022.github.io/past/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Program</title>
+      <link>https://sgp2022.github.io/program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2022.github.io/program/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Submit</title>
+      <link>https://sgp2022.github.io/submit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2022.github.io/submit/</guid>
+      <description>Call For Technical Papers We invite submissions related to, but not limited to, the following topics:
+ Acquisition and reconstruction Analysis and fabrication for 3D printing Architectural geometry Discrete differential geometry Exploration of shape collections Geometry and topology representations Geometry compression Geometric deep learning Geometry processing applications Interactive techniques Meshing and remeshing Multiresolution modeling Multimodal shape processing Processing of massive geometric datasets Geometric representations for machine learning Shape analysis and synthesis Simulation and animation Smoothing, filtering, and denoising Surface and volume parameterization and deformation  Dataset Papers.</description>
+    </item>
+    
+    <item>
+      <title>過去のSGP</title>
+      <link>https://sgp2022.github.io/past.jp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2022.github.io/past.jp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
