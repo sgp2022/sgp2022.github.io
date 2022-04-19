@@ -2,11 +2,39 @@
 title: "Program"
 layout: "program"
 type: "page"
+
+
+
+speakers: 
+  - name: Angela Dai
+    url: https://www.professoren.tum.de/dai-angela
+    affiliation: Technical University of Munich
+    title: "Towards Structured Geometric Understanding for 3D Perception"
+    abstract: "Semantic perception of 3D environments has seen remarkable advances in recent years, with a significant focus on object-based understanding. We propose to learn structured, intermediary representations, such as object parts, in order to provide a robust understanding of diverse 3D geometric structures from observations of real-world environments. This can enable more effective geometric reconstruction of objects in 3D scenes, enabling inter- and intra-object reasoning, as well as establish efficient structured representations for reconstruction and tracking of objects undergoing complex deformations."
+    portrait: /images/Dai.jpg
+  - name: Daniele Panozzo
+    url: https://cims.nyu.edu/gcl/daniele.html
+    affiliation: New York University
+    title: "Robust Geometry Processing for Physical Simulation"
+    abstract: "The numerical solution of partial differential equations (PDE) is ubiquitously used for physical simulation in scientific computing, computer graphics, and engineering. Ideally, a PDE solver should be opaque: the user provides as input the domain boundary, boundary conditions, and the governing equations, and the code returns an evaluator that can compute the value of the solution at any point of the input domain. This is surprisingly far from being the case for all existing open-source or commercial software, despite the research efforts in this direction and the large academic and industrial interest. To a large extent, this is due to lack of robustness and generality in the geometry processing algorithms used to convert raw geometrical data into a format suitable for a PDE solver. I will discuss the limitations of the current state of the art, and present a proposal for an integrated pipeline, considering data acquisition, meshing, basis design, and numerical optimization as a single challenge, where tradeoffs can be made between different phases to increase automation and efficiency. I will demonstrate that this integrated approach offers many advantages, while opening exciting new geometry processing challenges, and that a fully opaque meshing and analysis solution is already possible for heat transfer and elasticity problems with contact. I will present a set of applications enabled by this approach in reinforcement learning for robotics, force measurements in biology, shape design in mechanical engineering, stress estimation in biomechanics, and simulation of deformable objects in graphics."
+    portrait: /images/Panozzo.jpg
+
+
+
+
+
+
+
+
+
  
 
 ---
 
 <!-- 
+
+  - name: Caitlin Mueller
+  - name: Ligang Liu
 
 paperUSB: https://cloud.fraunhofer.at/s/sY2mezd4NgRRoPM/download/USB-SGP2021.zip
 paperURL: https://diglib.eg.org/handle/10.2312/2633079     
