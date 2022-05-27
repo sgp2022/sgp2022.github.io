@@ -29,6 +29,78 @@ speakers:
     abstract: "The numerical solution of partial differential equations (PDE) is ubiquitously used for physical simulation in scientific computing, computer graphics, and engineering. Ideally, a PDE solver should be opaque: the user provides as input the domain boundary, boundary conditions, and the governing equations, and the code returns an evaluator that can compute the value of the solution at any point of the input domain. This is surprisingly far from being the case for all existing open-source or commercial software, despite the research efforts in this direction and the large academic and industrial interest. To a large extent, this is due to lack of robustness and generality in the geometry processing algorithms used to convert raw geometrical data into a format suitable for a PDE solver. I will discuss the limitations of the current state of the art, and present a proposal for an integrated pipeline, considering data acquisition, meshing, basis design, and numerical optimization as a single challenge, where tradeoffs can be made between different phases to increase automation and efficiency. I will demonstrate that this integrated approach offers many advantages, while opening exciting new geometry processing challenges, and that a fully opaque meshing and analysis solution is already possible for heat transfer and elasticity problems with contact. I will present a set of applications enabled by this approach in reinforcement learning for robotics, force measurements in biology, shape design in mechanical engineering, stress estimation in biomechanics, and simulation of deformable objects in graphics."
     portrait: /images/Panozzo.jpg
 
+graduateSchoolCourses:
+  - title: Learning on Point Clouds
+    speakers:
+      - name: Hao Su
+        url: https://cseweb.ucsd.edu/~haosu/
+        affiliation: UC San Diego
+  - title: Learning on 3D Structures
+    speakers:
+      - name: Daniel Ritchie
+        url: 
+        affiliation: 
+  - title: 3D Morphable Face Models
+    speakers:
+      - name: Bernhard Egger
+        url: 
+        affiliation: 
+  - title: Character animation
+    speakers:
+      - name: Taku Komura
+        url: 
+        affiliation: 
+  - title: Geometric Computing for Biomedicine
+    speakers:
+      - name: Tao Ju
+        url: https://www.cse.wustl.edu/~taoju/
+        affiliation: Washington University in St. Louis
+  - title: High-order mesh generation
+    speakers: 
+      - name: Daniele Panozzo
+        url: https://cims.nyu.edu/gcl/daniele.html
+        affiliation: NYU
+  - title: Fusion 360 Gallery Dataset
+    speakers: 
+      - name: Joseph Lambourne
+        url: 
+        affiliation: 
+      - name: Karl Willis
+        url: 
+        affiliation:         
+  - title: ScanNet Dataset
+    speakers: 
+      - name: Angela Dai
+        url: 
+        affiliation: 
+  - title: Code Replicability
+    speakers: 
+      - name: Nicolas Mellado
+        url: 
+        affiliation: 
+      - name: Julie Digne
+        url: 
+        affiliation:    
+      - name: Nicolas Bonneel
+        url: 
+        affiliation: 
+      - name: David Coeurjolly
+        url: 
+        affiliation:         
+  - title: Directional
+    speakers: 
+      - name: Amir Vaxman
+        url: https://webspace.science.uu.nl/~vaxma001/
+        affiliation: Utrecht University
+  - title: Blender for Paper
+    speakers: 
+      - name: Silvia Sellán
+        url: 
+        affiliation: 
+
+
+
+
 ---
 
 <!-- 
