@@ -35,23 +35,37 @@ graduateSchoolCourses:
       - name: Hao Su
         url: https://cseweb.ucsd.edu/~haosu/
         affiliation: UC San Diego
-    abstract: "Point cloud is an important type of geometric data structure. They are simple and unified structures that avoid the combinatorial irregularities and complexities of meshes. These properties make point clouds widely used for 3D reconstruction or visual understanding applications, such as AR, autonomous driving, and robotics. This course will teach how we apply deep learning methods to point cloud data. We will cover the following topics in this short course: 1) basic neural architectures to process point cloud as input or to generate point cloud as output; 2) scene-level understanding of static and dynamic point clouds; 3) point cloud based inverse graphics; 4) learning to convert point cloud to other 3D representations; and 5) learning to map point cloud with data in other modalities (images, languages). We will end the course with some open problems."
+    abstract: |
+                Point cloud is an important type of geometric data structure. They are simple and unified structures that avoid the combinatorial irregularities and complexities of meshes. These properties make point clouds widely used for 3D reconstruction or visual understanding applications, such as AR, autonomous driving, and robotics. This course will teach how we apply deep learning methods to point cloud data. We will cover the following topics in this short course: 
+                
+                    1) basic neural architectures to process point cloud as input or to generate point cloud as output; 
+                    2) scene-level understanding of static and dynamic point clouds; 
+                    3) point cloud based inverse graphics; 
+                    4) learning to convert point cloud to other 3D representations; and 
+                    5) learning to map point cloud with data in other modalities (images, languages). 
+                    
+                We will end the course with some open problems.
   - title: Learning to Represent 3D Shapes with Programs
     speakers:
       - name: Daniel Ritchie
         url: 
         affiliation: 
-    abstract: "There are many representations for 3D shapes: triangle meshes, point clouds, parametric surfaces, signed distance fields, and so on. Different representations may be better for certain tasks: acquisition, editing, rendering, etc. In recent years, the space of possible 3D shape representations has been a topic of much discussion because of a new task: machine learning. Specifically, researchers have been exploring the following question: which 3D shape representations are best for learning from data?
+    abstract: |
+                There are many representations for 3D shapes: triangle meshes, point clouds, parametric surfaces, signed distance fields, and so on. Different representations may be better for certain tasks: acquisition, editing, rendering, etc. In recent years, the space of possible 3D shape representations has been a topic of much discussion because of a new task: machine learning. Specifically, researchers have been exploring the following question: which 3D shape representations are best for learning from data?
 
-In this course, we'll discuss a 3D shape representation with an old history that has been receiving renewed attention in today's learning-based era: programs. Programs (i.e. executable symbolic descriptions of a structure) have several properties that make them attractive for learning. For example, they can be constructed such that they cannot represent certain undesirable geometric artifacts that often plague learning-based systems, and their discrete symbolic nature makes them well-suited for processing with powerful neural language models such as Transformers.
+                In this course, we'll discuss a 3D shape representation with an old history that has been receiving renewed attention in today's learning-based era: programs. Programs (i.e. executable symbolic descriptions of a structure) have several properties that make them attractive for learning. For example, they can be constructed such that they cannot represent certain undesirable geometric artifacts that often plague learning-based systems, and their discrete symbolic nature makes them well-suited for processing with powerful neural language models such as Transformers.
 
-Specifically, this course will cover:
-- Learning problems/tasks involving program representations (visual program induction, generative modeling)
-- Domain-specific languages (DSLs) for shape modeling: current popular choices and considerations to make when choosing/designing one for your own project
-- Machine learning model architectures for learning/processing program representations
-- Algorithms for supervised and unsupervised learning of program representations for 3D shapes
+                Specifically, this course will cover:
+                
+                \- Learning problems/tasks involving program representations (visual program induction, generative modeling)
+                
+                \- Domain-specific languages (DSLs) for shape modeling: current popular choices and considerations to make when choosing/designing one for your own project
+                
+                \- Machine learning model architectures for learning/processing program representations
+                
+                \- Algorithms for supervised and unsupervised learning of program representations for 3D shapes
 
-We'll conclude with some thoughts on current open problems in this field as well as ideas for new graduate students to pursue."
+                We'll conclude with some thoughts on current open problems in this field as well as ideas for new graduate students to pursue."
   - title: 3D Morphable Face Models
     speakers:
       - name: Bernhard Egger
@@ -111,9 +125,10 @@ We'll conclude with some thoughts on current open problems in this field as well
       - name: David Coeurjolly
         url: 
         affiliation:      
-    abstract: "In this talk, we will introduce the concept of replicability, and its benefits in research. 
-We will present how replicability affects the work of researchers, the visibility of the research outcomes, and the impact on their diffusion.
-We will also cover the tools that are today available to develop replicable research, and attempt to sketch guidelines and best practices for research practitioners, e.g., students, researchers."
+    abstract: | 
+                In this talk, we will introduce the concept of replicability, and its benefits in research. 
+                We will present how replicability affects the work of researchers, the visibility of the research outcomes, and the impact on their diffusion.                
+                We will also cover the tools that are today available to develop replicable research, and attempt to sketch guidelines and best practices for research practitioners, e.g., students, researchers.
   - title: Practical Design and Analysis of Directional Fields. 
     speakers: 
       - name: Amir Vaxman
