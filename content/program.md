@@ -30,50 +30,72 @@ speakers:
     portrait: /images/Panozzo.jpg
 
 graduateSchoolCourses:
-  - title: Learning on Point Clouds
+  - title: Deep Learning on Point Clouds
     speakers:
       - name: Hao Su
         url: https://cseweb.ucsd.edu/~haosu/
         affiliation: UC San Diego
-  - title: Learning on 3D Structures
+    abstract: "Point cloud is an important type of geometric data structure. They are simple and unified structures that avoid the combinatorial irregularities and complexities of meshes. These properties make point clouds widely used for 3D reconstruction or visual understanding applications, such as AR, autonomous driving, and robotics. This course will teach how we apply deep learning methods to point cloud data. We will cover the following topics in this short course: 1) basic neural architectures to process point cloud as input or to generate point cloud as output; 2) scene-level understanding of static and dynamic point clouds; 3) point cloud based inverse graphics; 4) learning to convert point cloud to other 3D representations; and 5) learning to map point cloud with data in other modalities (images, languages). We will end the course with some open problems."
+  - title: Learning to Represent 3D Shapes with Programs
     speakers:
       - name: Daniel Ritchie
         url: 
         affiliation: 
+    abstract: "There are many representations for 3D shapes: triangle meshes, point clouds, parametric surfaces, signed distance fields, and so on. Different representations may be better for certain tasks: acquisition, editing, rendering, etc. In recent years, the space of possible 3D shape representations has been a topic of much discussion because of a new task: machine learning. Specifically, researchers have been exploring the following question: which 3D shape representations are best for learning from data?
+
+In this course, we'll discuss a 3D shape representation with an old history that has been receiving renewed attention in today's learning-based era: programs. Programs (i.e. executable symbolic descriptions of a structure) have several properties that make them attractive for learning. For example, they can be constructed such that they cannot represent certain undesirable geometric artifacts that often plague learning-based systems, and their discrete symbolic nature makes them well-suited for processing with powerful neural language models such as Transformers.
+
+Specifically, this course will cover:
+- Learning problems/tasks involving program representations (visual program induction, generative modeling)
+- Domain-specific languages (DSLs) for shape modeling: current popular choices and considerations to make when choosing/designing one for your own project
+- Machine learning model architectures for learning/processing program representations
+- Algorithms for supervised and unsupervised learning of program representations for 3D shapes
+
+We'll conclude with some thoughts on current open problems in this field as well as ideas for new graduate students to pursue."
   - title: 3D Morphable Face Models
     speakers:
       - name: Bernhard Egger
         url: 
         affiliation: 
+    abstract: "A 3D Morphable Model (3DMM) is a statistical object model separating shape from appearance variation. Typically, 3DMMs are used as a statistical prior in computer graphics and vision. A model is learned from high-quality 3D scans of multiple object instances. It reduces the dimensionality and provides a low-dimensional, parametric object representation. The resulting model is generative, which means that from a set of randomly sampled parameters a novel realistic object instance arises. Such a model can then be used in various settings, we will focus on the inverse rendering setting, where we try to reconstruct the 3D face from a 2D image with the 3DMM as prior. In this tutorial I will introduce 3DMMs from scratch and focus on explaining every single component behind a 3DMM. We will also have a short outlook at various applications and how 3DMMs are used today and combined with other modeling techniques."
   - title: Character animation
     speakers:
       - name: Taku Komura
         url: 
         affiliation: 
+    abstract: "Character animation is a topic that has a wide range of applications for films, computer games, digital entertainment, automatic driving, Metaverse and virtual reality.  In this lecture, I will start from the basics of character animation and then discuss novel topics in facial animation, data-driven full body motion synthesis based on neural networks, reinforcement learning and physically-based animation."
   - title: Geometric Computing for Biomedicine
     speakers:
       - name: Tao Ju
         url: https://www.cse.wustl.edu/~taoju/
         affiliation: Washington University in St. Louis
-  - title: High-order mesh generation
+    abstract: "With the advance of biomedical imaging technology, research in biology and medicine increasingly relies on the ability to robustly and efficiently extract knowledge from raw images. The goal of this course is to offer an overview of the roles that geometry processing can play in this data-to-knowledge process. The course starts with a brief introduction to biomedical imaging and the typical computational tasks on these images (e.g., segmentation, analysis, registration, etc.). The bulk of the course will be devoted to several examples of geometry processing problems that arise from accomplishing these tasks, including meshing of scalar fields, slice-based surface reconstruction, topology simplification, and skeletonization, and progress made so far for solving each problem. The course will end with a few example biomedical applications that utilize geometry processing algorithms."
+  - title: An Introduction to High-Order Mesh Generation
     speakers: 
       - name: Daniele Panozzo
         url: https://cims.nyu.edu/gcl/daniele.html
         affiliation: NYU
-  - title: Fusion 360 Gallery Dataset
+    abstract: "Meshes with curved edges are a useful discretization to represent curved geometries or high-order displacement fields more compactly than their linear counterpart. The smaller number of degrees of freedom, coupled with the additional flexibility in the shape of the elements, has major computational advantages. However, the curved geometry introduces additional algorithmic and numerical challenges.
+
+In this lecture, we discuss the advantages and disadvantages of linear and curved meshes and overview the current state of the art in both curved mesh generation and their use for the solution of partial differential equations with the finite element method. A particular focus is on the major open geometric challenges introduced by the curved boundaries, including checking for inversions, Boolean operations, collision detection, and input sanitization for the commonly used SVG and STEP industrial standards.
+
+The prerequisites for this lecture are an undergraduate linear algebra course and an undergraduate graphics or geometry processing course. A course on numerical methods and/or on the finite element method is a plus but not necessary."
+  - title: The Fusion 360 Gallery Dataset: Learning segmentation, reconstruction and assembly modeling
     speakers: 
       - name: Joseph Lambourne
         url: 
         affiliation: 
       - name: Karl Willis
         url: 
-        affiliation:         
-  - title: ScanNet Dataset
+        affiliation:    
+    abstract: "Almost every manufactured object in the world around us starts life as a computer-aided design (CAD) model. Industrial CAD models contain rich, multi-faceted data describing precise geometry as analytical surfaces, complex topology for parts as well as assemblies, and the underlying sequential modeling operations invoked by the CAD user. This talk introduces the Fusion 360 Gallery Dataset, a collection of CAD data submitted by users to the Autodesk Online Gallery. We give an overview of the available data and present some of our recent research which utilizes this for segmentation, CAD sequence determination and assembly modeling. We also outline unsolved challenges and areas for future investigation."
+  - title: Learning to Understand 3D from Large-Scale Indoor Scene Data
     speakers: 
       - name: Angela Dai
         url: 
         affiliation: 
-  - title: Code Replicability
+    abstract: "We have seen a revolution in 2D image understanding, driven by large-scale image datasets coupled with advances in deep learning. How can we bring this to 3D perception, which is fundamental to understanding scene structure to enable higher-level understanding such as interaction with environments? This talk will discuss the creation of large-scale 3D annotated datasets to enable learning strong data-driven priors, with focus on the ScanNet dataset. We will additionally discuss open challenges with existing 3D data, learning efficiently in limited data scenarios, and under potentially imperfect data."
+  - title: Replicability in Computer Graphics
     speakers: 
       - name: Nicolas Mellado
         url: 
@@ -86,17 +108,22 @@ graduateSchoolCourses:
         affiliation: 
       - name: David Coeurjolly
         url: 
-        affiliation:         
-  - title: Directional
+        affiliation:      
+    abstract: "In this talk, we will introduce the concept of replicability, and its benefits in research. 
+We will present how replicability affects the work of researchers, the visibility of the research outcomes, and the impact on their diffusion.
+We will also cover the tools that are today available to develop replicable research, and attempt to sketch guidelines and best practices for research practitioners, e.g., students, researchers."
+  - title: Practical Design and Analysis of Directional Fields. 
     speakers: 
       - name: Amir Vaxman
         url: https://webspace.science.uu.nl/~vaxma001/
         affiliation: Utrecht University
-  - title: Blender for Paper
+    abstract: "Directional fields on surfaces and in volumes are important features of geometry processing. Such fields can represent flows, alignments, or trends in geometry. In this tutorial, we will learn some of the elementary building blocks of directional field processing. Namely, we will demonstrate how to build discrete consistent representations, connections, and differential operators. Finally, we will talk about field visualization. These constructions will be represented using examples from Directional (https://github.com/avaxman/Directional)."
+  - title: Blender for Academic Papers
     speakers: 
       - name: Silvia Sellán
         url: 
         affiliation: 
+    abstract: "There are a lot of great Blender tutorials online, and they are usually aimed at artists or animators who want to generate full scenes from scratch for short films. They go into depth on how to model a shape, how to pick the best lighting, how to design a material, create textures, etc. These can be overwhelming if you are an academic and all you want is to render your object beautifully for a SIGGRAPH paper figure. This can lead to a lot of frustration especially near deadlines, when one does not have the time or energy to learn a whole new aspect of the software just for a minor change in a paper figure. In this course, aimed at absolute Blender beginners, we will mitigate this frustration by walking slowly from .obj file to beautiful paper figure, showing tricks to save time and effort."
 
 
 
