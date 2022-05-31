@@ -75,12 +75,14 @@ We'll conclude with some thoughts on current open problems in this field as well
       - name: Daniele Panozzo
         url: https://cims.nyu.edu/gcl/daniele.html
         affiliation: NYU
-    abstract: "Meshes with curved edges are a useful discretization to represent curved geometries or high-order displacement fields more compactly than their linear counterpart. The smaller number of degrees of freedom, coupled with the additional flexibility in the shape of the elements, has major computational advantages. However, the curved geometry introduces additional algorithmic and numerical challenges.
+    abstract: | 
+                Meshes with curved edges are a useful discretization to represent curved geometries or high-order displacement fields more compactly than their linear counterpart. The smaller number of degrees of freedom, coupled with the additional flexibility in the shape of the elements, has major computational advantages. However, the curved geometry introduces additional algorithmic and numerical challenges.
+                
+                In this lecture, we discuss the advantages and disadvantages of linear and curved meshes and overview the current state of the art in both curved mesh generation and their use for the solution of partial differential equations with the finite element method. A particular focus is on the major open geometric challenges introduced by the curved boundaries, including checking for inversions, Boolean operations, collision detection, and input sanitization for the commonly used SVG and STEP industrial standards.
 
-In this lecture, we discuss the advantages and disadvantages of linear and curved meshes and overview the current state of the art in both curved mesh generation and their use for the solution of partial differential equations with the finite element method. A particular focus is on the major open geometric challenges introduced by the curved boundaries, including checking for inversions, Boolean operations, collision detection, and input sanitization for the commonly used SVG and STEP industrial standards.
+                The prerequisites for this lecture are an undergraduate linear algebra course and an undergraduate graphics or geometry processing course. A course on numerical methods and/or on the finite element method is a plus but not necessary.
 
-The prerequisites for this lecture are an undergraduate linear algebra course and an undergraduate graphics or geometry processing course. A course on numerical methods and/or on the finite element method is a plus but not necessary."
-  - title: The Fusion 360 Gallery Dataset: Learning segmentation, reconstruction and assembly modeling
+  - title: "The Fusion 360 Gallery Dataset: Learning segmentation, reconstruction and assembly modeling"
     speakers: 
       - name: Joseph Lambourne
         url: 
