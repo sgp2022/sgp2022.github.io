@@ -48,8 +48,8 @@ graduateSchoolCourses:
   - title: Learning to Represent 3D Shapes with Programs
     speakers:
       - name: Daniel Ritchie
-        url: 
-        affiliation: 
+        url: https://dritchie.github.io/
+        affiliation: Brown University
     abstract: |
                 There are many representations for 3D shapes: triangle meshes, point clouds, parametric surfaces, signed distance fields, and so on. Different representations may be better for certain tasks: acquisition, editing, rendering, etc. In recent years, the space of possible 3D shape representations has been a topic of much discussion because of a new task: machine learning. Specifically, researchers have been exploring the following question: which 3D shape representations are best for learning from data?
 
@@ -69,14 +69,14 @@ graduateSchoolCourses:
   - title: 3D Morphable Face Models
     speakers:
       - name: Bernhard Egger
-        url: 
-        affiliation: 
+        url: https://www.ki.fau.de/speakers/prof-dr-bernhard-egger/
+        affiliation: Friedrich-Alexander-University, Erlangen-Nürnberg
     abstract: "A 3D Morphable Model (3DMM) is a statistical object model separating shape from appearance variation. Typically, 3DMMs are used as a statistical prior in computer graphics and vision. A model is learned from high-quality 3D scans of multiple object instances. It reduces the dimensionality and provides a low-dimensional, parametric object representation. The resulting model is generative, which means that from a set of randomly sampled parameters a novel realistic object instance arises. Such a model can then be used in various settings, we will focus on the inverse rendering setting, where we try to reconstruct the 3D face from a 2D image with the 3DMM as prior. In this tutorial I will introduce 3DMMs from scratch and focus on explaining every single component behind a 3DMM. We will also have a short outlook at various applications and how 3DMMs are used today and combined with other modeling techniques."
   - title: Character animation
     speakers:
       - name: Taku Komura
-        url: 
-        affiliation: 
+        url: https://i.cs.hku.hk/~taku/
+        affiliation: University of Hong Kong
     abstract: "Character animation is a topic that has a wide range of applications for films, computer games, digital entertainment, automatic driving, Metaverse and virtual reality.  In this lecture, I will start from the basics of character animation and then discuss novel topics in facial animation, data-driven full body motion synthesis based on neural networks, reinforcement learning and physically-based animation."
   - title: Geometric Computing for Biomedicine
     speakers:
@@ -99,11 +99,11 @@ graduateSchoolCourses:
   - title: "The Fusion 360 Gallery Dataset: Learning segmentation, reconstruction and assembly modeling"
     speakers: 
       - name: Joseph Lambourne
-        url: 
-        affiliation: 
+        url: https://www.autodesk.com/research/people/joseph-lambourne
+        affiliation: Autodesk
       - name: Karl Willis
-        url: 
-        affiliation:    
+        url: https://www.karlddwillis.com/
+        affiliation: Autodesk, London
     abstract: "Almost every manufactured object in the world around us starts life as a computer-aided design (CAD) model. Industrial CAD models contain rich, multi-faceted data describing precise geometry as analytical surfaces, complex topology for parts as well as assemblies, and the underlying sequential modeling operations invoked by the CAD user. This talk introduces the Fusion 360 Gallery Dataset, a collection of CAD data submitted by users to the Autodesk Online Gallery. We give an overview of the available data and present some of our recent research which utilizes this for segmentation, CAD sequence determination and assembly modeling. We also outline unsolved challenges and areas for future investigation."
   - title: Learning to Understand 3D from Large-Scale Indoor Scene Data
     speakers: 
@@ -114,17 +114,17 @@ graduateSchoolCourses:
   - title: Replicability in Computer Graphics
     speakers: 
       - name: Nicolas Mellado
-        url: 
+        url: https://www.irit.fr/recherches/STORM/MelladoNicolas/
         affiliation: CNRS - IRIT
       - name: Julie Digne
-        url: 
-        affiliation: LIRIS - CNRS   
+        url: https://perso.liris.cnrs.fr/julie.digne/
+        affiliation: CNRS - LIRIS   
       - name: Nicolas Bonneel
-        url: 
-        affiliation: 
+        url: https://perso.liris.cnrs.fr/nicolas.bonneel/
+        affiliation: CNRS
       - name: David Coeurjolly
-        url: 
-        affiliation:      
+        url: https://perso.liris.cnrs.fr/david.coeurjolly/
+        affiliation: CNRS - LIRIS
     abstract: | 
                 In this talk, we will introduce the concept of replicability, and its benefits in research. 
                 We will present how replicability affects the work of researchers, the visibility of the research outcomes, and the impact on their diffusion.                
@@ -138,8 +138,8 @@ graduateSchoolCourses:
   - title: Blender for Academic Papers
     speakers: 
       - name: Silvia Sellán
-        url: 
-        affiliation: 
+        url: https://www.silviasellan.com/
+        affiliation: University of Toronto
     abstract: "There are a lot of great Blender tutorials online, and they are usually aimed at artists or animators who want to generate full scenes from scratch for short films. They go into depth on how to model a shape, how to pick the best lighting, how to design a material, create textures, etc. These can be overwhelming if you are an academic and all you want is to render your object beautifully for a SIGGRAPH paper figure. This can lead to a lot of frustration especially near deadlines, when one does not have the time or energy to learn a whole new aspect of the software just for a minor change in a paper figure. In this course, aimed at absolute Blender beginners, we will mitigate this frustration by walking slowly from .obj file to beautiful paper figure, showing tricks to save time and effort."
 
 
@@ -183,7 +183,7 @@ graduateSchoolCourses:
   - title: 3D Morphable Face Models
     speakers:
       - name: Bernhard Egger
-        url: 
+        url: https://www.ki.fau.de/speakers/prof-dr-bernhard-egger/
         affiliation: 
     abstract: "Abstract TBD"
     teaser: /images/unknown.jpg
