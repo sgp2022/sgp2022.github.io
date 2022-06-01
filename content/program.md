@@ -38,11 +38,11 @@ graduateSchoolCourses:
     abstract: |
                 Point cloud is an important type of geometric data structure. They are simple and unified structures that avoid the combinatorial irregularities and complexities of meshes. These properties make point clouds widely used for 3D reconstruction or visual understanding applications, such as AR, autonomous driving, and robotics. This course will teach how we apply deep learning methods to point cloud data. We will cover the following topics in this short course: 
                 
-                    1) basic neural architectures to process point cloud as input or to generate point cloud as output; 
-                    2) scene-level understanding of static and dynamic point clouds; 
-                    3) point cloud based inverse graphics; 
-                    4) learning to convert point cloud to other 3D representations; and 
-                    5) learning to map point cloud with data in other modalities (images, languages). 
+                    1) basic neural architectures to process point cloud as input or to generate point cloud as output
+                    2) scene-level understanding of static and dynamic point clouds 
+                    3) point cloud based inverse graphics 
+                    4) learning to convert point cloud to other 3D representations 
+                    5) learning to map point cloud with data in other modalities (images, languages)
                     
                 We will end the course with some open problems.
   - title: Learning to Represent 3D Shapes with Programs
@@ -108,17 +108,17 @@ graduateSchoolCourses:
   - title: Learning to Understand 3D from Large-Scale Indoor Scene Data
     speakers: 
       - name: Angela Dai
-        url: 
-        affiliation: 
+        url: https://www.professoren.tum.de/dai-angela
+        affiliation: Technical University of Munich
     abstract: "We have seen a revolution in 2D image understanding, driven by large-scale image datasets coupled with advances in deep learning. How can we bring this to 3D perception, which is fundamental to understanding scene structure to enable higher-level understanding such as interaction with environments? This talk will discuss the creation of large-scale 3D annotated datasets to enable learning strong data-driven priors, with focus on the ScanNet dataset. We will additionally discuss open challenges with existing 3D data, learning efficiently in limited data scenarios, and under potentially imperfect data."
   - title: Replicability in Computer Graphics
     speakers: 
       - name: Nicolas Mellado
         url: 
-        affiliation: 
+        affiliation: CNRS - IRIT
       - name: Julie Digne
         url: 
-        affiliation:    
+        affiliation: LIRIS - CNRS   
       - name: Nicolas Bonneel
         url: 
         affiliation: 
