@@ -21,23 +21,18 @@
 </p>
 {{ .Content }}
 
-<h2>Material</h2>
-<table class=fixed-table>
-<tr>
-<td>
-<iframe width="600" height="315" src="https://www.youtube.com/embed/zIvxeT2saLw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</td>
-<td>
-</td>
-<td>
-<p><a href="/images/sgp.jpg">
-<img src="/images/sgp-small.jpg" alt="SGP Poster" title="SGP Poster" height=400>
-</a></p>
-</td>
-</tr>
-</table>
+<h2>Video</h2>
+<div class=poster-container>
+<iframe width="480" height="250" src="https://www.youtube.com/embed/zIvxeT2saLw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 {{- partial "important-dates.html" . -}}
+
+<h2> {{T "poster" }}</h2>
+<div class=poster-container>
+    <a  href="/images/sgp.jpg"><img src=/images/sgp-small.jpg
+    class=poster></a>
+</div>
 
 <h2>{{T "sponsors" }}</h2>
 <table class=fixed-table>
@@ -69,6 +64,7 @@
 </tr>
 {{end}}
 </table>
+
 
 <p class=single-line>
 <a href="mailto:{{ .Site.Params.sponsorContact}}">{{T "contact_us" }}</a> 
