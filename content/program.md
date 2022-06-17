@@ -2,7 +2,7 @@
 title: "Program"
 layout: "program"
 type: "page"
-
+menu: program
 
 
 speakers: 
@@ -138,10 +138,8 @@ graduateSchoolCourses:
         affiliation: University of Toronto
     abstract: "There are a lot of great Blender tutorials online, and they are usually aimed at artists or animators who want to generate full scenes from scratch for short films. They go into depth on how to model a shape, how to pick the best lighting, how to design a material, create textures, etc. These can be overwhelming if you are an academic and all you want is to render your object beautifully for a SIGGRAPH paper figure. This can lead to a lot of frustration especially near deadlines, when one does not have the time or energy to learn a whole new aspect of the software just for a minor change in a paper figure. In this course, aimed at absolute Blender beginners, we will mitigate this frustration by walking slowly from .obj file to beautiful paper figure, showing tricks to save time and effort."
 
-
-
-
----
+---  
+The detailed version of the program can can be download [here.](/images/SGP_2022_Program.pdf) Note that, the last version of the program has the timestamp: **17.06.2022 18:03:37**
 
 <!-- 
 
