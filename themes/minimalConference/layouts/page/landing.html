@@ -21,7 +21,18 @@
 </p>
 {{ .Content }}
 
+<h2>Video</h2>
+<div class=video-container>
+<iframe src="https://www.youtube.com/embed/zIvxeT2saLw?controls=0&autoplay=1&loop=1&modestbranding=1&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscpoe; picture-in-picture; fullscreen" allowfullscreen></iframe>
+</div>
+
 {{- partial "important-dates.html" . -}}
+
+<h2> {{T "poster" }}</h2>
+<div class=poster-container>
+    <a  href="/images/sgp.jpg"><img src=/images/sgp-small.jpg
+    class=poster></a>
+</div>
 
 <h2>{{T "sponsors" }}</h2>
 <table class=fixed-table>
@@ -53,6 +64,7 @@
 </tr>
 {{end}}
 </table>
+
 
 <p class=single-line>
 <a href="mailto:{{ .Site.Params.sponsorContact}}">{{T "contact_us" }}</a> 

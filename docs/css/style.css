@@ -64,7 +64,7 @@
   --parchment: #eafaef;
   --dark-blue: #282b27;
   --turquoise: #fcfcfc;
-  --footer-height: 150px;
+  --footer-height: 251px;
   --green: #27a8a2;
   --red: #f74c4c;
   --blue: #f74c4c;
@@ -803,4 +803,22 @@ td.teaserColumn
 {
   font-size: 0.6em;
   color: var(--blue);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
