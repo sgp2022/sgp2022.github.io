@@ -2,7 +2,7 @@
 title: "Program"
 layout: "program"
 type: "page"
-
+menu: program
 
 
 speakers: 
@@ -17,11 +17,7 @@ speakers:
     affiliation: University of Science and Technology of China
     title: "Computational 3D Visual Art Design"
     abstract: "3D visual arts are highly diverse, including sculpture, architecture, ceramics, etc., in our lives.  Traditionally, artists use their rich imagination and experience to design 3D objects to give the audience a memorable experience. The design process takes a lot of trial and error, so it is often very time-consuming. It has attracted the attention of many researchers in the community of geometry processing and computer graphics, proposing various algorithms to simplify the initial complicated design process and help artists quickly realize the art in their minds. Moreover, the advent of digital modeling and 3D printing enables artists to create more complex 3D visual artworks.  In this talk, we will show a few interesting 3D visual art works and propose automatic methods to solve various problems in the design process of these art works.  From these examples, we reveal the close connection between geometry processing techniques and various 3D visual art design problems. Moreover, we will discuss about the current research trends and provide an outlook for future research directions and solutions."
-    portrait: /images/Liu.png    
-  - name: Caitlin Mueller
-    url: http://www.caitlinmueller.com/
-    affiliation: MIT Architecture
-    portrait: /images/Mueller.png    
+    portrait: /images/Liu.png      
   - name: Daniele Panozzo
     url: https://cims.nyu.edu/gcl/daniele.html
     affiliation: New York University
@@ -142,10 +138,8 @@ graduateSchoolCourses:
         affiliation: University of Toronto
     abstract: "There are a lot of great Blender tutorials online, and they are usually aimed at artists or animators who want to generate full scenes from scratch for short films. They go into depth on how to model a shape, how to pick the best lighting, how to design a material, create textures, etc. These can be overwhelming if you are an academic and all you want is to render your object beautifully for a SIGGRAPH paper figure. This can lead to a lot of frustration especially near deadlines, when one does not have the time or energy to learn a whole new aspect of the software just for a minor change in a paper figure. In this course, aimed at absolute Blender beginners, we will mitigate this frustration by walking slowly from .obj file to beautiful paper figure, showing tricks to save time and effort."
 
-
-
-
----
+---  
+The detailed version of the program can can be download [here.](/images/SGP_2022_Program.pdf) Note that, the last version of the program has the timestamp: **17.06.2022 18:03:37**
 
 <!-- 
 
