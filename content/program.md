@@ -280,7 +280,7 @@ paperSessions:
           - name: Franck Ledoux
           - name: David Bommes 
 ---  
-The detailed version of the program can can be download [here.](/images/SGP_2022_Program.pdf) Note that, the last version of the program has the timestamp: **17.06.2022 18:03:37**
+The complete program schedule can be downloaded [here.](/images/SGP_2022_Program.pdf) (The file with timestamp 2022-06-19 13:00:00 is the current one)
 
 <!-- 
 
