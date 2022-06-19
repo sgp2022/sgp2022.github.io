@@ -138,6 +138,147 @@ graduateSchoolCourses:
         affiliation: University of Toronto
     abstract: "There are a lot of great Blender tutorials online, and they are usually aimed at artists or animators who want to generate full scenes from scratch for short films. They go into depth on how to model a shape, how to pick the best lighting, how to design a material, create textures, etc. These can be overwhelming if you are an academic and all you want is to render your object beautifully for a SIGGRAPH paper figure. This can lead to a lot of frustration especially near deadlines, when one does not have the time or energy to learn a whole new aspect of the software just for a minor change in a paper figure. In this course, aimed at absolute Blender beginners, we will mitigate this frustration by walking slowly from .obj file to beautiful paper figure, showing tricks to save time and effort."
 
+paperSessions: 
+  - name: MODELING & MAPPING
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Harmonic Shape Interpolation on Multiply-connected Domains"
+        authors:
+          - name: Dongbo Shi
+          - name: Renjie Chen
+      - title: "Localized Shape Modelling with Global Coherence: An Inverse Spectral Approach"
+        authors: 
+          - name: Marco Pegoraro
+          - name: Simone Melzi
+          - name: Umberto Castellani, Riccardo Marin, Emanuele Rodola
+          - name: Umberto Castellani
+          - name: Riccardo Marin
+          - name: Emanuele Rodola
+      - title: "Non-Isometric Shape Matching via Functional Maps on Landmark-Adapted Bases (CGF)"
+        authors: 
+          - name: Mikhail Panine
+          - name: Maxime Kirgo
+          - name: Maks Ovsjanikov
+          
+  - name: CURVES & FEATURES
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Smooth Interpolating Curves with Local Control and Monotone Alternating Curvature"
+        authors:
+          - name: Alexandre Binninger
+          - name: Olga Sorkine-Hornung
+      - title: "b/Surf: Interactive Bzier Splines on Surface Meshes (TVCG)"
+        authors:
+          - name: Claudio Mancinelli
+          - name: Giacomo Nazzaro   
+          - name: Fabio Pellacini    
+          - name: Enrico Puppo     
+      - title: "SGLBP: Subgraph-based Local Binary Patterns for Feature Extraction on Point Clouds (CGF)"
+        authors:
+          - name: Bao Guo
+          - name: Yuhe Zhang     
+          - name: Jian Gao,  
+          - name: Chunhui Li
+          - name: Yao Hu   
+ 
+  - name: LEARNING & CREATING
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "PriFit: Learning to Fit Primitives Improves Few Shot Point Cloud Segmentation"
+        authors:
+          - name: Gopal Sharma
+          - name: Bidya Dash
+          - name: Aruni RoyChowdhury
+          - name: Matheus Gadelha
+          - name: Marios Loizou
+          - name: Liangliang Cao
+          - name: Rui Wang
+          - name: Erik G. Learned-Miller
+          - name: Subhransu Maji
+          - name: Evangelos Kalogerakis
+      - title: "SDF-StyleGAN: Implicit SDF-Based StyleGAN for 3D Shape Generation"
+        authors:
+          - name: Xinyang Zheng
+          - name: Yang Liu
+          - name: Pengshuai Wang
+          - name: Tong Xin
+      - title: "MendNet: Restoration of Fractured Shapes Using Learned Occupancy Functions"
+        authors:
+          - name: Nikolas Lamb
+          - name: Sean Banerjee
+          - name: Natasha Banerjee
+
+  - name: MESHES & PARTITIONS
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Precise High-order Meshing of 2D Domains with Rational Bézier Curves"
+        authors:
+          - name: JinLin Yang
+          - name: Shibo Liu
+          - name: Shuangming Chai
+          - name: Ligang Liu
+          - name: Xiao-Ming Fu
+      - title: "Rational Bézier Guarding"
+        authors:
+          - name: Payam Khanteimouri
+          - name: Manish Mandad
+          - name: Marcel Campen
+      - title: "Simplification of 2D Polygonal Partitions via Point-line Projective Duality, and Application to Urban Reconstruction (CGF)"
+        authors:
+          - name: Julien Vuillamy
+          - name: Andre Lieutier    
+          - name: Florent Lafarge   
+          - name: Pierre Alliez
+          
+  - name: TILING & NESTING
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Constructing L∞ Voronoi Diagrams in 2D and 3D"
+        authors:
+          - name: Dennis Bukenberger
+          - name: Kevin Buchin
+          - name: Mario Botsch
+      - title: "Fabricable Multi-Scale Wang Tiles"
+        authors:
+          - name: Xiaokang Liu
+          - name: Chenran Li
+          - name: Lin Lu
+          - name: Oliver Deussen
+          - name: Changhe Tu 
+      - title: "Topological Simplification of Nested Shapes"
+        authors:
+          - name: Dan Zeng
+          - name: Erin Chambers 
+          - name: David Letscher
+          - name: Tao Ju
+         
+  - name: TOOLS & DATA
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Deterministic Linear Time for Maximal Poisson-Disk Sampling using Chocks without Rejection or Approximation"
+        authors:
+          - name: Scott Mitchell 
+      - title: "TinyAD: Automatic Differentiation in Geometry Processing Made Simple"
+        authors:
+          - name: Patrick Schmidt
+          - name: Janis Born
+          - name: David Bommes 
+          - name: Marcel Campen  
+          - name: Leif Kobbelt
+      - title: "Hex Me If You Can"
+        authors:
+          - name: Pierre-Alexandre Beaufort
+          - name: Maxence Reberol
+          - name: Denis Kalmykov
+          - name: Heng Liu
+          - name: Franck Ledoux
+          - name: David Bommes 
 ---  
 The detailed version of the program can can be download [here.](/images/SGP_2022_Program.pdf) Note that, the last version of the program has the timestamp: **17.06.2022 18:03:37**
 
