@@ -17,7 +17,13 @@ speakers:
     affiliation: University of Science and Technology of China
     title: "Computational 3D Visual Art Design"
     abstract: "3D visual arts are highly diverse, including sculpture, architecture, ceramics, etc., in our lives.  Traditionally, artists use their rich imagination and experience to design 3D objects to give the audience a memorable experience. The design process takes a lot of trial and error, so it is often very time-consuming. It has attracted the attention of many researchers in the community of geometry processing and computer graphics, proposing various algorithms to simplify the initial complicated design process and help artists quickly realize the art in their minds. Moreover, the advent of digital modeling and 3D printing enables artists to create more complex 3D visual artworks.  In this talk, we will show a few interesting 3D visual art works and propose automatic methods to solve various problems in the design process of these art works.  From these examples, we reveal the close connection between geometry processing techniques and various 3D visual art design problems. Moreover, we will discuss about the current research trends and provide an outlook for future research directions and solutions."
-    portrait: /images/Liu.png      
+    portrait: /images/Liu.png     
+  - name: Caitlin Mueller
+    url: http://www.caitlinmueller.com/
+    affiliation: MIT Architecture
+    title: "Geometry for design and construction of high-performance architecture"
+    abstract: "Design and construction in the built environment present significant challenges and opportunities for impact: Buildings contribute to about 40% of global carbon emissions through their materials and operations, often due to inefficiencies stemming from a lack of integration between architectural design, engineering, and construction processes.  While this disconnect has been critiqued for decades, today's emerging techniques in computation, and in particular, geometry, can allow for a new layer of interdisciplinary communication and collaboration that transforms traditional workflows and empowers novel visual languages for high-performance architecture.  In this talk, Mueller will share recent work that contributes to this goal, demonstrating new techniques for computational design that integrate engineering principles and sustainability goals without overriding creative autonomy, and new fabrication methods that can materialize efficient geometries economically.  In particular, the talk will demonstrate how techniques developed in geometry processing and related fields can empower significant innovation in architectural domains, and will propose emerging problem spaces and applications for future geometry research."  
+    portrait: /images/Mueller.png      
   - name: Daniele Panozzo
     url: https://cims.nyu.edu/gcl/daniele.html
     affiliation: New York University
@@ -138,6 +144,147 @@ graduateSchoolCourses:
         affiliation: University of Toronto
     abstract: "There are a lot of great Blender tutorials online, and they are usually aimed at artists or animators who want to generate full scenes from scratch for short films. They go into depth on how to model a shape, how to pick the best lighting, how to design a material, create textures, etc. These can be overwhelming if you are an academic and all you want is to render your object beautifully for a SIGGRAPH paper figure. This can lead to a lot of frustration especially near deadlines, when one does not have the time or energy to learn a whole new aspect of the software just for a minor change in a paper figure. In this course, aimed at absolute Blender beginners, we will mitigate this frustration by walking slowly from .obj file to beautiful paper figure, showing tricks to save time and effort."
 
+paperSessions: 
+  - name: MODELING & MAPPING
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Harmonic Shape Interpolation on Multiply-connected Domains"
+        authors:
+          - name: Dongbo Shi
+          - name: Renjie Chen
+      - title: "Localized Shape Modelling with Global Coherence: An Inverse Spectral Approach"
+        authors: 
+          - name: Marco Pegoraro
+          - name: Simone Melzi
+          - name: Umberto Castellani, Riccardo Marin, Emanuele Rodola
+          - name: Umberto Castellani
+          - name: Riccardo Marin
+          - name: Emanuele Rodola
+      - title: "Non-Isometric Shape Matching via Functional Maps on Landmark-Adapted Bases (CGF)"
+        authors: 
+          - name: Mikhail Panine
+          - name: Maxime Kirgo
+          - name: Maks Ovsjanikov
+          
+  - name: CURVES & FEATURES
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Smooth Interpolating Curves with Local Control and Monotone Alternating Curvature"
+        authors:
+          - name: Alexandre Binninger
+          - name: Olga Sorkine-Hornung
+      - title: "b/Surf: Interactive Bzier Splines on Surface Meshes (TVCG)"
+        authors:
+          - name: Claudio Mancinelli
+          - name: Giacomo Nazzaro   
+          - name: Fabio Pellacini    
+          - name: Enrico Puppo     
+      - title: "SGLBP: Subgraph-based Local Binary Patterns for Feature Extraction on Point Clouds (CGF)"
+        authors:
+          - name: Bao Guo
+          - name: Yuhe Zhang     
+          - name: Jian Gao,  
+          - name: Chunhui Li
+          - name: Yao Hu   
+ 
+  - name: LEARNING & CREATING
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "PriFit: Learning to Fit Primitives Improves Few Shot Point Cloud Segmentation"
+        authors:
+          - name: Gopal Sharma
+          - name: Bidya Dash
+          - name: Aruni RoyChowdhury
+          - name: Matheus Gadelha
+          - name: Marios Loizou
+          - name: Liangliang Cao
+          - name: Rui Wang
+          - name: Erik G. Learned-Miller
+          - name: Subhransu Maji
+          - name: Evangelos Kalogerakis
+      - title: "SDF-StyleGAN: Implicit SDF-Based StyleGAN for 3D Shape Generation"
+        authors:
+          - name: Xinyang Zheng
+          - name: Yang Liu
+          - name: Pengshuai Wang
+          - name: Tong Xin
+      - title: "MendNet: Restoration of Fractured Shapes Using Learned Occupancy Functions"
+        authors:
+          - name: Nikolas Lamb
+          - name: Sean Banerjee
+          - name: Natasha Banerjee
+
+  - name: MESHES & PARTITIONS
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Precise High-order Meshing of 2D Domains with Rational Bézier Curves"
+        authors:
+          - name: JinLin Yang
+          - name: Shibo Liu
+          - name: Shuangming Chai
+          - name: Ligang Liu
+          - name: Xiao-Ming Fu
+      - title: "Rational Bézier Guarding"
+        authors:
+          - name: Payam Khanteimouri
+          - name: Manish Mandad
+          - name: Marcel Campen
+      - title: "Simplification of 2D Polygonal Partitions via Point-line Projective Duality, and Application to Urban Reconstruction (CGF)"
+        authors:
+          - name: Julien Vuillamy
+          - name: Andre Lieutier    
+          - name: Florent Lafarge   
+          - name: Pierre Alliez
+          
+  - name: TILING & NESTING
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Constructing L∞ Voronoi Diagrams in 2D and 3D"
+        authors:
+          - name: Dennis Bukenberger
+          - name: Kevin Buchin
+          - name: Mario Botsch
+      - title: "Fabricable Multi-Scale Wang Tiles"
+        authors:
+          - name: Xiaokang Liu
+          - name: Chenran Li
+          - name: Lin Lu
+          - name: Oliver Deussen
+          - name: Changhe Tu 
+      - title: "Topological Simplification of Nested Shapes"
+        authors:
+          - name: Dan Zeng
+          - name: Erin Chambers 
+          - name: David Letscher
+          - name: Tao Ju
+         
+  - name: TOOLS & DATA
+    chair: To be updated
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Deterministic Linear Time for Maximal Poisson-Disk Sampling using Chocks without Rejection or Approximation"
+        authors:
+          - name: Scott Mitchell 
+      - title: "TinyAD: Automatic Differentiation in Geometry Processing Made Simple"
+        authors:
+          - name: Patrick Schmidt
+          - name: Janis Born
+          - name: David Bommes 
+          - name: Marcel Campen  
+          - name: Leif Kobbelt
+      - title: "Hex Me If You Can"
+        authors:
+          - name: Pierre-Alexandre Beaufort
+          - name: Maxence Reberol
+          - name: Denis Kalmykov
+          - name: Heng Liu
+          - name: Franck Ledoux
+          - name: David Bommes 
 ---  
 The complete program schedule can be downloaded [here.](/images/SGP_2022_Program.pdf) (The file with timestamp 2022-06-19 13:00:00 is the current one)
 
