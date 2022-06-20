@@ -47,11 +47,11 @@ Params:
     - id: "conference"
       date: "July 4-6, 2022"
   sponsors:
-#   - name: "Platinum"
-#     id: "platinum"
-#     items:
-#       - name: "Geometry Factory"
-#         logo: "images/geometryfactory-logo.png"
+   - name: ""
+     id: "gold"
+     items:
+       - name: "Geometry Factory"
+         logo: "images/geometryfactory-logo.png"
 #   - name: "Gold"
 #     id: "gold"
 #     items:
