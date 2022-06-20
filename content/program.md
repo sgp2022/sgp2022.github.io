@@ -146,7 +146,7 @@ graduateSchoolCourses:
 
 paperSessions: 
   - name: MODELING & MAPPING
-    chair: To be updated
+    chair: ...
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Harmonic Shape Interpolation on Multiply-connected Domains"
@@ -168,14 +168,14 @@ paperSessions:
           - name: Maks Ovsjanikov
           
   - name: CURVES & FEATURES
-    chair: To be updated
+    chair: ...
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Smooth Interpolating Curves with Local Control and Monotone Alternating Curvature"
         authors:
           - name: Alexandre Binninger
           - name: Olga Sorkine-Hornung
-      - title: "b/Surf: Interactive Bzier Splines on Surface Meshes (TVCG)"
+      - title: "b/Surf: Interactive Bézier Splines on Surface Meshes (TVCG)"
         authors:
           - name: Claudio Mancinelli
           - name: Giacomo Nazzaro   
@@ -190,7 +190,7 @@ paperSessions:
           - name: Yao Hu   
  
   - name: LEARNING & CREATING
-    chair: To be updated
+    chair: ...
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "PriFit: Learning to Fit Primitives Improves Few Shot Point Cloud Segmentation"
@@ -218,12 +218,12 @@ paperSessions:
           - name: Natasha Banerjee
 
   - name: MESHES & PARTITIONS
-    chair: To be updated
+    chair: ...
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Precise High-order Meshing of 2D Domains with Rational Bézier Curves"
         authors:
-          - name: JinLin Yang
+          - name: Jinlin Yang
           - name: Shibo Liu
           - name: Shuangming Chai
           - name: Ligang Liu
@@ -239,32 +239,9 @@ paperSessions:
           - name: Andre Lieutier    
           - name: Florent Lafarge   
           - name: Pierre Alliez
-          
-  - name: TILING & NESTING
-    chair: To be updated
-    teaser: /images/default_thumbnail.jpg
-    papers:
-      - title: "Constructing L∞ Voronoi Diagrams in 2D and 3D"
-        authors:
-          - name: Dennis Bukenberger
-          - name: Kevin Buchin
-          - name: Mario Botsch
-      - title: "Fabricable Multi-Scale Wang Tiles"
-        authors:
-          - name: Xiaokang Liu
-          - name: Chenran Li
-          - name: Lin Lu
-          - name: Oliver Deussen
-          - name: Changhe Tu 
-      - title: "Topological Simplification of Nested Shapes"
-        authors:
-          - name: Dan Zeng
-          - name: Erin Chambers 
-          - name: David Letscher
-          - name: Tao Ju
          
   - name: TOOLS & DATA
-    chair: To be updated
+    chair: ...
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Deterministic Linear Time for Maximal Poisson-Disk Sampling using Chocks without Rejection or Approximation"
@@ -285,6 +262,29 @@ paperSessions:
           - name: Heng Liu
           - name: Franck Ledoux
           - name: David Bommes 
+
+  - name: TILING & NESTING
+    chair: ...
+    teaser: /images/default_thumbnail.jpg
+    papers:
+      - title: "Constructing L∞ Voronoi Diagrams in 2D and 3D"
+        authors:
+          - name: Dennis Bukenberger
+          - name: Kevin Buchin
+          - name: Mario Botsch
+      - title: "Fabricable Multi-Scale Wang Tiles"
+        authors:
+          - name: Xiaokang Liu
+          - name: Chenran Li
+          - name: Lin Lu
+          - name: Oliver Deussen
+          - name: Changhe Tu 
+      - title: "Topological Simplification of Nested Shapes"
+        authors:
+          - name: Dan Zeng
+          - name: Erin Chambers 
+          - name: David Letscher
+          - name: Tao Ju
 ---  
 The complete program schedule can be downloaded [here.](/images/SGP_2022_Program.pdf) (The file with timestamp 2022-06-20 09:00:00 is the current one)
 
