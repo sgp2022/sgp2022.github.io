@@ -46,6 +46,12 @@ Params:
       date: "July 2-3, 2022"
     - id: "conference"
       date: "July 4-6, 2022"
+  sponsors:
+   - name: ""
+     id: "gold"
+     items:
+       - name: "Geometry Factory"
+         logo: "images/geometryfactory-logo.png"
   importantDates:
     - id: abstract_submission
       date: "April 7, 2022, 23:59 UTC"
