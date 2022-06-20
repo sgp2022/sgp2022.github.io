@@ -19,7 +19,7 @@ languages:
     to the field. Courses will be taught by leading experts and complemented by 
     interactive demonstrations to provide in-depth knowledge of recent and 
     fundamental aspects of geometry processing."
-    sponsorPlea: "if you like to become a sponsor SGP 2022."
+    sponsorPlea: "if you like to become a sponsor of SGP 2022."
     submitNow: "Begin your submision now."
 menu:
   main:
@@ -46,6 +46,12 @@ Params:
       date: "July 2-3, 2022"
     - id: "conference"
       date: "July 4-6, 2022"
+  sponsors:
+   - name: ""
+     id: "gold"
+     items:
+       - name: "Geometry Factory"
+         logo: "images/geometryfactory-logo.png"
   importantDates:
     - id: abstract_submission
       date: "April 7, 2022, 23:59 UTC"
@@ -148,7 +154,7 @@ Params:
            country: "USA"
          - name: Olga Diamanti
            affiliation: "TU Graz"
-           country: "SWITZERLAND"
+           country: "AUSTRIA"
          - name: Julie Digne
            affiliation: "LIRIS - CNRS"
            country: "FRANCE"
