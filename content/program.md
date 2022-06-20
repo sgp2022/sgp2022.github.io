@@ -33,6 +33,7 @@ speakers:
 
 graduateSchoolCourses:
   - title: Deep Learning on Point Clouds
+    teaser: /images/default_thumbnail.jpg
     speakers:
       - name: Hao Su
         url: https://cseweb.ucsd.edu/~haosu/
@@ -48,6 +49,7 @@ graduateSchoolCourses:
                     
                 We will end the course with some open problems.
   - title: Learning to Represent 3D Shapes with Programs
+    teaser: /images/default_thumbnail.jpg
     speakers:
       - name: Daniel Ritchie
         url: https://dritchie.github.io/
@@ -69,24 +71,28 @@ graduateSchoolCourses:
 
                 We'll conclude with some thoughts on current open problems in this field as well as ideas for new graduate students to pursue."
   - title: 3D Morphable Face Models
+    teaser: /images/default_thumbnail.jpg
     speakers:
       - name: Bernhard Egger
         url: https://www.ki.fau.de/speakers/prof-dr-bernhard-egger/
         affiliation: Friedrich-Alexander-University, Erlangen-Nürnberg
     abstract: "A 3D Morphable Model (3DMM) is a statistical object model separating shape from appearance variation. Typically, 3DMMs are used as a statistical prior in computer graphics and vision. A model is learned from high-quality 3D scans of multiple object instances. It reduces the dimensionality and provides a low-dimensional, parametric object representation. The resulting model is generative, which means that from a set of randomly sampled parameters a novel realistic object instance arises. Such a model can then be used in various settings, we will focus on the inverse rendering setting, where we try to reconstruct the 3D face from a 2D image with the 3DMM as prior. In this tutorial I will introduce 3DMMs from scratch and focus on explaining every single component behind a 3DMM. We will also have a short outlook at various applications and how 3DMMs are used today and combined with other modeling techniques."
   - title: Character animation
+    teaser: /images/default_thumbnail.jpg
     speakers:
       - name: Taku Komura
         url: https://i.cs.hku.hk/~taku/
         affiliation: University of Hong Kong
     abstract: "Character animation is a topic that has a wide range of applications for films, computer games, digital entertainment, automatic driving, Metaverse and virtual reality.  In this lecture, I will start from the basics of character animation and then discuss novel topics in facial animation, data-driven full body motion synthesis based on neural networks, reinforcement learning and physically-based animation."
   - title: Geometric Computing for Biomedicine
+    teaser: /images/default_thumbnail.jpg
     speakers:
       - name: Tao Ju
         url: https://www.cse.wustl.edu/~taoju/
         affiliation: Washington University in St. Louis
     abstract: "With the advance of biomedical imaging technology, research in biology and medicine increasingly relies on the ability to robustly and efficiently extract knowledge from raw images. The goal of this course is to offer an overview of the roles that geometry processing can play in this data-to-knowledge process. The course starts with a brief introduction to biomedical imaging and the typical computational tasks on these images (e.g., segmentation, analysis, registration, etc.). The bulk of the course will be devoted to several examples of geometry processing problems that arise from accomplishing these tasks, including meshing of scalar fields, slice-based surface reconstruction, topology simplification, and skeletonization, and progress made so far for solving each problem. The course will end with a few example biomedical applications that utilize geometry processing algorithms."
   - title: An Introduction to High-Order Mesh Generation
+    teaser: /images/default_thumbnail.jpg
     speakers: 
       - name: Daniele Panozzo
         url: https://cims.nyu.edu/gcl/daniele.html
@@ -99,6 +105,7 @@ graduateSchoolCourses:
                 The prerequisites for this lecture are an undergraduate linear algebra course and an undergraduate graphics or geometry processing course. A course on numerical methods and/or on the finite element method is a plus but not necessary.
 
   - title: "The Fusion 360 Gallery Dataset: Learning segmentation, reconstruction and assembly modeling"
+    teaser: /images/default_thumbnail.jpg
     speakers: 
       - name: Joseph Lambourne
         url: https://www.autodesk.com/research/people/joseph-lambourne
@@ -108,12 +115,14 @@ graduateSchoolCourses:
         affiliation: Autodesk, London
     abstract: "Almost every manufactured object in the world around us starts life as a computer-aided design (CAD) model. Industrial CAD models contain rich, multi-faceted data describing precise geometry as analytical surfaces, complex topology for parts as well as assemblies, and the underlying sequential modeling operations invoked by the CAD user. This talk introduces the Fusion 360 Gallery Dataset, a collection of CAD data submitted by users to the Autodesk Online Gallery. We give an overview of the available data and present some of our recent research which utilizes this for segmentation, CAD sequence determination and assembly modeling. We also outline unsolved challenges and areas for future investigation."
   - title: Learning to Understand 3D from Large-Scale Indoor Scene Data
+    teaser: /images/default_thumbnail.jpg
     speakers: 
       - name: Angela Dai
         url: https://www.professoren.tum.de/dai-angela
         affiliation: Technical University of Munich
     abstract: "We have seen a revolution in 2D image understanding, driven by large-scale image datasets coupled with advances in deep learning. How can we bring this to 3D perception, which is fundamental to understanding scene structure to enable higher-level understanding such as interaction with environments? This talk will discuss the creation of large-scale 3D annotated datasets to enable learning strong data-driven priors, with focus on the ScanNet dataset. We will additionally discuss open challenges with existing 3D data, learning efficiently in limited data scenarios, and under potentially imperfect data."
   - title: Replicability in Computer Graphics
+    teaser: /images/default_thumbnail.jpg
     speakers: 
       - name: Nicolas Mellado
         url: https://www.irit.fr/recherches/STORM/MelladoNicolas/
@@ -132,12 +141,14 @@ graduateSchoolCourses:
                 We will present how replicability affects the work of researchers, the visibility of the research outcomes, and the impact on their diffusion.                
                 We will also cover the tools that are today available to develop replicable research, and attempt to sketch guidelines and best practices for research practitioners, e.g., students, researchers.
   - title: Practical Design and Analysis of Directional Fields. 
+    teaser: /images/default_thumbnail.jpg
     speakers: 
       - name: Amir Vaxman
         url: https://webspace.science.uu.nl/~vaxma001/
         affiliation: Utrecht University
     abstract: "Directional fields on surfaces and in volumes are important features of geometry processing. Such fields can represent flows, alignments, or trends in geometry. In this tutorial, we will learn some of the elementary building blocks of directional field processing. Namely, we will demonstrate how to build discrete consistent representations, connections, and differential operators. Finally, we will talk about field visualization. These constructions will be represented using examples from Directional (https://github.com/avaxman/Directional)."
   - title: Blender for Academic Papers
+    teaser: /images/default_thumbnail.jpg
     speakers: 
       - name: Silvia Sellán
         url: https://www.silviasellan.com/
