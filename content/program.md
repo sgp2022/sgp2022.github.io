@@ -168,7 +168,6 @@ paperSessions:
         authors: 
           - name: Marco Pegoraro
           - name: Simone Melzi
-          - name: Umberto Castellani, Riccardo Marin, Emanuele Rodola
           - name: Umberto Castellani
           - name: Riccardo Marin
           - name: Emanuele Rodola
