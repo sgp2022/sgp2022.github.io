@@ -39,15 +39,15 @@ graduateSchoolCourses:
         url: https://cseweb.ucsd.edu/~haosu/
         affiliation: UC San Diego
     abstract: |
-                Point cloud is an important type of geometric data structure. They are simple and unified structures that avoid the combinatorial irregularities and complexities of meshes. These properties make point clouds widely used for 3D reconstruction or visual understanding applications, such as AR, autonomous driving, and robotics. This course will teach how we apply deep learning methods to point cloud data. We will cover the following topics in this short course: 
+                Point cloud is an important type of geometric data structure. They are simple and unified structures that avoid the combinatorial irregularities and complexities of meshes. These properties make point clouds widely used for 3D reconstruction or visual understanding applications, such as AR, autonomous driving, and robotics. This course will teach how we apply deep learning methods to point cloud data. We will cover the following topics in this short course and will end with some open problems.
                 
-                    1) basic neural architectures to process point cloud as input or to generate point cloud as output
-                    2) scene-level understanding of static and dynamic point clouds 
-                    3) point cloud based inverse graphics 
-                    4) learning to convert point cloud to other 3D representations 
-                    5) learning to map point cloud with data in other modalities (images, languages)
+                1) Basic neural architectures to process point cloud as input or to generate point cloud as output
+                2) Scene-level understanding of static and dynamic point clouds 
+                3) Point cloud based inverse graphics 
+                4) Learning to convert point cloud to other 3D representations 
+                5) Learning to map point cloud with data in other modalities (images, languages)
                     
-                We will end the course with some open problems.
+               
   - title: Learning to Represent 3D Shapes with Programs
     teaser: /images/default_thumbnail.jpg
     speakers:
@@ -56,20 +56,15 @@ graduateSchoolCourses:
         affiliation: Brown University
     abstract: |
                 There are many representations for 3D shapes: triangle meshes, point clouds, parametric surfaces, signed distance fields, and so on. Different representations may be better for certain tasks: acquisition, editing, rendering, etc. In recent years, the space of possible 3D shape representations has been a topic of much discussion because of a new task: machine learning. Specifically, researchers have been exploring the following question: which 3D shape representations are best for learning from data?
-
                 In this course, we'll discuss a 3D shape representation with an old history that has been receiving renewed attention in today's learning-based era: programs. Programs (i.e. executable symbolic descriptions of a structure) have several properties that make them attractive for learning. For example, they can be constructed such that they cannot represent certain undesirable geometric artifacts that often plague learning-based systems, and their discrete symbolic nature makes them well-suited for processing with powerful neural language models such as Transformers.
+                Specifically, this course will cover the following, and we'll conclude with some thoughts on current open problems in this field as well as ideas for new graduate students to pursue.
+                
+                1) Learning problems/tasks involving program representations (visual program induction, generative modeling)
+                2) Domain-specific languages (DSLs) for shape modeling: current popular choices and considerations to make when choosing/designing one for your own project
+                3) Machine learning model architectures for learning/processing program representations
+                4) Algorithms for supervised and unsupervised learning of program representations for 3D shapes
 
-                Specifically, this course will cover:
                 
-                \- Learning problems/tasks involving program representations (visual program induction, generative modeling)
-                
-                \- Domain-specific languages (DSLs) for shape modeling: current popular choices and considerations to make when choosing/designing one for your own project
-                
-                \- Machine learning model architectures for learning/processing program representations
-                
-                \- Algorithms for supervised and unsupervised learning of program representations for 3D shapes
-
-                We'll conclude with some thoughts on current open problems in this field as well as ideas for new graduate students to pursue."
   - title: 3D Morphable Face Models
     teaser: /images/default_thumbnail.jpg
     speakers:
@@ -99,9 +94,7 @@ graduateSchoolCourses:
         affiliation: NYU
     abstract: | 
                 Meshes with curved edges are a useful discretization to represent curved geometries or high-order displacement fields more compactly than their linear counterpart. The smaller number of degrees of freedom, coupled with the additional flexibility in the shape of the elements, has major computational advantages. However, the curved geometry introduces additional algorithmic and numerical challenges.
-                
                 In this lecture, we discuss the advantages and disadvantages of linear and curved meshes and overview the current state of the art in both curved mesh generation and their use for the solution of partial differential equations with the finite element method. A particular focus is on the major open geometric challenges introduced by the curved boundaries, including checking for inversions, Boolean operations, collision detection, and input sanitization for the commonly used SVG and STEP industrial standards.
-
                 The prerequisites for this lecture are an undergraduate linear algebra course and an undergraduate graphics or geometry processing course. A course on numerical methods and/or on the finite element method is a plus but not necessary.
 
   - title: "The Fusion 360 Gallery Dataset: Learning segmentation, reconstruction and assembly modeling"
@@ -138,8 +131,7 @@ graduateSchoolCourses:
         affiliation: CNRS - LIRIS
     abstract: | 
                 In this talk, we will introduce the concept of replicability, and its benefits in research. 
-                We will present how replicability affects the work of researchers, the visibility of the research outcomes, and the impact on their diffusion.                
-                We will also cover the tools that are today available to develop replicable research, and attempt to sketch guidelines and best practices for research practitioners, e.g., students, researchers.
+                We will present how replicability affects the work of researchers, the visibility of the research outcomes, and the impact on their diffusion. We will also cover the tools that are today available to develop replicable research, and attempt to sketch guidelines and best practices for research practitioners, e.g., students, researchers.
   - title: Practical Design and Analysis of Directional Fields. 
     teaser: /images/default_thumbnail.jpg
     speakers: 
@@ -154,6 +146,7 @@ graduateSchoolCourses:
         url: https://www.silviasellan.com/
         affiliation: University of Toronto
     abstract: "There are a lot of great Blender tutorials online, and they are usually aimed at artists or animators who want to generate full scenes from scratch for short films. They go into depth on how to model a shape, how to pick the best lighting, how to design a material, create textures, etc. These can be overwhelming if you are an academic and all you want is to render your object beautifully for a SIGGRAPH paper figure. This can lead to a lot of frustration especially near deadlines, when one does not have the time or energy to learn a whole new aspect of the software just for a minor change in a paper figure. In this course, aimed at absolute Blender beginners, we will mitigate this frustration by walking slowly from .obj file to beautiful paper figure, showing tricks to save time and effort."
+
 
 paperSessions: 
   - name: MODELING & MAPPING
@@ -296,7 +289,13 @@ paperSessions:
           - name: David Letscher
           - name: Tao Ju
 ---  
-The complete program schedule can be downloaded [here.](/images/SGP_2022_Program.pdf) (The file with timestamp 2022-06-20 09:00:00 is the current one)
+&nbsp;
+
+&nbsp;
+
+The complete [**Conference Program Schedule**](/images/SGP_2022_Program.pdf) is available as PDF.
+
+*(The file with timestamp 2022-06-20 09:00:00 is the current one)*
 
 <!-- 
 
