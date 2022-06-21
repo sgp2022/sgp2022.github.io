@@ -157,7 +157,7 @@ graduateSchoolCourses:
 
 paperSessions: 
   - name: MODELING & MAPPING
-    chair: ...
+    chair: Mirela Ben-Chen
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Harmonic Shape Interpolation on Multiply-connected Domains"
@@ -178,7 +178,7 @@ paperSessions:
           - name: Maks Ovsjanikov
           
   - name: CURVES & FEATURES
-    chair: ...
+    chair: Jorg Peters
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Smooth Interpolating Curves with Local Control and Monotone Alternating Curvature"
@@ -200,7 +200,7 @@ paperSessions:
           - name: Yao Hu   
  
   - name: LEARNING & CREATING
-    chair: ...
+    chair: Julie Digne
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "PriFit: Learning to Fit Primitives Improves Few Shot Point Cloud Segmentation"
@@ -228,7 +228,7 @@ paperSessions:
           - name: Natasha Banerjee
 
   - name: MESHES & PARTITIONS
-    chair: ...
+    chair: David Bommes
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Precise High-order Meshing of 2D Domains with Rational Bézier Curves"
@@ -251,7 +251,7 @@ paperSessions:
           - name: Pierre Alliez
          
   - name: TOOLS & DATA
-    chair: ...
+    chair: Justin Solomon
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Deterministic Linear Time for Maximal Poisson-Disk Sampling using Chocks without Rejection or Approximation"
@@ -274,7 +274,7 @@ paperSessions:
           - name: David Bommes 
 
   - name: TILING & NESTING
-    chair: ...
+    chair: Pierre Alliez
     teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Constructing L∞ Voronoi Diagrams in 2D and 3D"
