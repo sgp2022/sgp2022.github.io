@@ -293,7 +293,7 @@ paperSessions:
 
 &nbsp;
 
-The complete [**Conference Program Schedule**](/images/SGP_2022_Program.pdf) is available as PDF.
+The detailed [**Conference Program Schedule**](/images/SGP_2022_Program.pdf) is available as PDF.
 
 *(The file with timestamp 2022-06-20 09:00:00 is the current one)*
 
