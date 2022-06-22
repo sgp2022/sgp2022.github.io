@@ -41,11 +41,11 @@ graduateSchoolCourses:
     abstract: |
                 Point cloud is an important type of geometric data structure. They are simple and unified structures that avoid the combinatorial irregularities and complexities of meshes. These properties make point clouds widely used for 3D reconstruction or visual understanding applications, such as AR, autonomous driving, and robotics. This course will teach how we apply deep learning methods to point cloud data. We will cover the following topics in this short course and will end with some open problems.
                 
-                1) Basic neural architectures to process point cloud as input or to generate point cloud as output
-                2) Scene-level understanding of static and dynamic point clouds 
-                3) Point cloud based inverse graphics 
-                4) Learning to convert point cloud to other 3D representations 
-                5) Learning to map point cloud with data in other modalities (images, languages)
+                1) &bull; Basic neural architectures to process point cloud as input or to generate point cloud as output
+                2) &bull; Scene-level understanding of static and dynamic point clouds 
+                3) &bull; Point cloud based inverse graphics 
+                4) &bull; Learning to convert point cloud to other 3D representations 
+                5) &bull; Learning to map point cloud with data in other modalities (images, languages)
                     
                
   - title: Learning to Represent 3D Shapes with Programs
@@ -59,10 +59,10 @@ graduateSchoolCourses:
                 In this course, we'll discuss a 3D shape representation with an old history that has been receiving renewed attention in today's learning-based era: programs. Programs (i.e. executable symbolic descriptions of a structure) have several properties that make them attractive for learning. For example, they can be constructed such that they cannot represent certain undesirable geometric artifacts that often plague learning-based systems, and their discrete symbolic nature makes them well-suited for processing with powerful neural language models such as Transformers.
                 Specifically, this course will cover the following, and we'll conclude with some thoughts on current open problems in this field as well as ideas for new graduate students to pursue.
                 
-                1) Learning problems/tasks involving program representations (visual program induction, generative modeling)
-                2) Domain-specific languages (DSLs) for shape modeling: current popular choices and considerations to make when choosing/designing one for your own project
-                3) Machine learning model architectures for learning/processing program representations
-                4) Algorithms for supervised and unsupervised learning of program representations for 3D shapes
+                1) &bull; Learning problems/tasks involving program representations (visual program induction, generative modeling)
+                2) &bull; Domain-specific languages (DSLs) for shape modeling: current popular choices and considerations to make when choosing/designing one for your own project
+                3) &bull; Machine learning model architectures for learning/processing program representations
+                4) &bull; Algorithms for supervised and unsupervised learning of program representations for 3D shapes
 
                 
   - title: 3D Morphable Face Models
