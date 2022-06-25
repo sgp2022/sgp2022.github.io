@@ -20,12 +20,12 @@ languages:
     interactive demonstrations to provide in-depth knowledge of recent and 
     fundamental aspects of geometry processing."
     sponsorPlea: "if you like to become a sponsor of SGP 2022."
-    submitNow: "Begin your submision now."
+    submitNow: "Submissions closed. Deadline passed."
 menu:
   main:
     - name: submit
       url: /submit/
-      weight: 10
+      weight: 45
     - name: program
       url: /program/
       weight: 20
@@ -55,6 +55,8 @@ Params:
      items:
        - name: "Geometry Factory"
          logo: "images/geometryfactory-logo.png"
+       - name: "Adobe"
+         logo: "images/adobe.png"
   importantDates:
     - id: abstract_submission
       date: "April 7, 2022, 23:59 UTC"
@@ -79,10 +81,10 @@ Params:
   - id: technical_program_co_chairs
     items: 
       - name: "Marcel Campen"
-        email: ""
+        email: "chairs-sgp2022@eg.org"
         affiliation: "(Osnabrück University)"
       - name: "Michela Spagnuolo"
-        email: ""
+        email: "chairs-sgp2022@eg.org"
         affiliation: "(CNR)"
   - id: graduate_school_co_chairs
     items: 
@@ -97,7 +99,7 @@ Params:
     items: 
       - name: "Marc Alexa"
         email: "firstname.lastname at tu-berlin.de"
-        affiliation: "Technische Universität Berlin"
+        affiliation: "(Technische Universität Berlin)"
   committees:
     - id: technical_papers_committee
       members:
@@ -355,7 +357,7 @@ Params:
            country: "USA"
     - id: awards_committee
       members:
-      #  - name: Name Name
+        - name: "[to be revealed at the award ceremony]"
       #    affiliation: affiliation
       #    country: "Austria"
     - id: steering_committee
@@ -381,11 +383,6 @@ Params:
         - name: "Daniele Panozzo"
           affiliation: "New York University"
           country: "USA"
-    - id: student_volunteers
-      members:
-        #- name: Name Name
-        #  affiliation: affiliation
-        #  country: Canada
   flagEmojis:
     Afghanistan: "🇦🇫"
     Albania: "🇦🇱"

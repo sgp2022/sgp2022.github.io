@@ -4,6 +4,23 @@ layout: "simple-static"
 type: "page"
 ---
 
+## Best Paper Award
+
+[to be awarded at the ceremony in the closing session]
+
+## Software Award
+
+[to be awarded at the ceremony in the closing session]
+
+## Dataset Award
+
+[to be awarded at the ceremony in the closing session]
+
+## Test of Time Award
+
+[to be awarded at the ceremony in the closing session]
+
+
 <!--
 ## Best Paper 3rd Place
 
@@ -53,4 +70,6 @@ _Symposium on Geometry Processing, 2006_
 
 -->
 
-[Previous awardees.](http://awards.geometryprocessing.org/)
+&nbsp;
+
+[List of previous awardees](http://awards.geometryprocessing.org/)
