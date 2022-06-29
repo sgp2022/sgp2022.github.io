@@ -77,7 +77,7 @@
   --planet-background: #c2c2c2;
   --planet-menu-bg: #3580db;
   --planet-line-section-1: #3580db;
-  --planet-line-section-2: #daa046;
+  --planet-line-section-2: #da4646;
   --planet-line-section-3: #219228;
 }
 
@@ -571,7 +571,7 @@ div.poster-container
 }
 img.poster
 {
-  max-height: 500px;
+  max-width: 300px;
 }
 
 div.twitter-container
@@ -712,6 +712,22 @@ ul.paperList li:first-of-type
 
 ul.paperList li:before
 {
+}
+
+table.paperList
+{
+	width: 90%;
+}
+
+table.paperList td
+{
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+table.paperList img
+{
+	width: 300px;
 }
 
 h3.sessionName

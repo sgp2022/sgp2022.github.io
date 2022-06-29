@@ -151,13 +151,14 @@ graduateSchoolCourses:
 paperSessions: 
   - name: MODELING & MAPPING
     chair: Mirela Ben-Chen
-    teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Harmonic Shape Interpolation on Multiply-connected Domains"
+        teaser: /images/default_thumbnail.jpg
         authors:
           - name: Dongbo Shi
           - name: Renjie Chen
       - title: "Localized Shape Modelling with Global Coherence: An Inverse Spectral Approach"
+        teaser: /preview/MODELING_MAPPING/2.png
         authors: 
           - name: Marco Pegoraro
           - name: Simone Melzi
@@ -165,6 +166,7 @@ paperSessions:
           - name: Riccardo Marin
           - name: Emanuele Rodola
       - title: "Non-Isometric Shape Matching via Functional Maps on Landmark-Adapted Bases (CGF)"
+        teaser: /preview/MODELING_MAPPING/3.png
         authors: 
           - name: Mikhail Panine
           - name: Maxime Kirgo
@@ -172,19 +174,21 @@ paperSessions:
           
   - name: CURVES & FEATURES
     chair: Jorg Peters
-    teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Smooth Interpolating Curves with Local Control and Monotone Alternating Curvature"
+        teaser: /preview/CURVES_FEATURES/1.png
         authors:
           - name: Alexandre Binninger
           - name: Olga Sorkine-Hornung
       - title: "b/Surf: Interactive Bézier Splines on Surface Meshes (TVCG)"
+        teaser: /preview/CURVES_FEATURES/2.png
         authors:
           - name: Claudio Mancinelli
           - name: Giacomo Nazzaro   
           - name: Fabio Pellacini    
           - name: Enrico Puppo     
       - title: "SGLBP: Subgraph-based Local Binary Patterns for Feature Extraction on Point Clouds (CGF)"
+        teaser: /images/default_thumbnail.jpg
         authors:
           - name: Bao Guo
           - name: Yuhe Zhang     
@@ -194,9 +198,9 @@ paperSessions:
  
   - name: LEARNING & CREATING
     chair: Julie Digne
-    teaser: /images/default_thumbnail.jpg
     papers:
       - title: "PriFit: Learning to Fit Primitives Improves Few Shot Point Cloud Segmentation"
+        teaser: /images/default_thumbnail.jpg
         authors:
           - name: Gopal Sharma
           - name: Bidya Dash
@@ -209,12 +213,14 @@ paperSessions:
           - name: Subhransu Maji
           - name: Evangelos Kalogerakis
       - title: "SDF-StyleGAN: Implicit SDF-Based StyleGAN for 3D Shape Generation"
+        teaser: /preview/LEARNING_CREATING/2.png
         authors:
           - name: Xinyang Zheng
           - name: Yang Liu
           - name: Pengshuai Wang
           - name: Tong Xin
       - title: "MendNet: Restoration of Fractured Shapes Using Learned Occupancy Functions"
+        teaser: /preview/LEARNING_CREATING/3.png
         authors:
           - name: Nikolas Lamb
           - name: Sean Banerjee
@@ -222,9 +228,9 @@ paperSessions:
 
   - name: MESHES & PARTITIONS
     chair: David Bommes
-    teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Precise High-order Meshing of 2D Domains with Rational Bézier Curves"
+        teaser: /images/default_thumbnail.jpg
         authors:
           - name: Jinlin Yang
           - name: Shibo Liu
@@ -232,11 +238,13 @@ paperSessions:
           - name: Ligang Liu
           - name: Xiao-Ming Fu
       - title: "Rational Bézier Guarding"
+        teaser: /images/default_thumbnail.jpg
         authors:
           - name: Payam Khanteimouri
           - name: Manish Mandad
           - name: Marcel Campen
       - title: "Simplification of 2D Polygonal Partitions via Point-line Projective Duality, and Application to Urban Reconstruction (CGF)"
+        teaser: /images/default_thumbnail.jpg
         authors:
           - name: Julien Vuillamy
           - name: Andre Lieutier    
@@ -245,12 +253,13 @@ paperSessions:
          
   - name: TOOLS & DATA
     chair: Justin Solomon
-    teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Deterministic Linear Time for Maximal Poisson-Disk Sampling using Chocks without Rejection or Approximation"
+        teaser: /images/default_thumbnail.jpg
         authors:
           - name: Scott Mitchell 
       - title: "TinyAD: Automatic Differentiation in Geometry Processing Made Simple"
+        teaser: /preview/TOOLS_DATA/2.png
         authors:
           - name: Patrick Schmidt
           - name: Janis Born
@@ -258,6 +267,7 @@ paperSessions:
           - name: Marcel Campen  
           - name: Leif Kobbelt
       - title: "Hex Me If You Can"
+        teaser: /images/default_thumbnail.jpg
         authors:
           - name: Pierre-Alexandre Beaufort
           - name: Maxence Reberol
@@ -268,14 +278,15 @@ paperSessions:
 
   - name: TILING & NESTING
     chair: Pierre Alliez
-    teaser: /images/default_thumbnail.jpg
     papers:
       - title: "Constructing L∞ Voronoi Diagrams in 2D and 3D"
+        teaser: /preview/TILING_NESTING/1.png
         authors:
           - name: Dennis Bukenberger
           - name: Kevin Buchin
           - name: Mario Botsch
       - title: "Fabricable Multi-Scale Wang Tiles"
+        teaser: /preview/TILING_NESTING/2.png
         authors:
           - name: Xiaokang Liu
           - name: Chenran Li
@@ -283,6 +294,7 @@ paperSessions:
           - name: Oliver Deussen
           - name: Changhe Tu 
       - title: "Topological Simplification of Nested Shapes"
+        teaser: /preview/TILING_NESTING/3.png
         authors:
           - name: Dan Zeng
           - name: Erin Chambers 
