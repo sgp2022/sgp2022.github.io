@@ -714,6 +714,22 @@ ul.paperList li:before
 {
 }
 
+table.paperList
+{
+	width: 90%;
+}
+
+table.paperList td
+{
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+table.paperList img
+{
+	width: 300px;
+}
+
 h3.sessionName
 {
   text-align: left;
