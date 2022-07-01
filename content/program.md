@@ -153,7 +153,7 @@ paperSessions:
     chair: Mirela Ben-Chen
     papers:
       - title: "Harmonic Shape Interpolation on Multiply-connected Domains"
-        teaser: /images/default_thumbnail.jpg
+        teaser: /preview/MODELING_MAPPING/1.png
         authors:
           - name: Dongbo Shi
           - name: Renjie Chen
@@ -188,11 +188,11 @@ paperSessions:
           - name: Fabio Pellacini    
           - name: Enrico Puppo     
       - title: "SGLBP: Subgraph-based Local Binary Patterns for Feature Extraction on Point Clouds (CGF)"
-        teaser: /images/default_thumbnail.jpg
+        teaser: /preview/CURVES_FEATURES/3.png
         authors:
           - name: Bao Guo
           - name: Yuhe Zhang     
-          - name: Jian Gao,  
+          - name: Jian Gao
           - name: Chunhui Li
           - name: Yao Hu   
  
@@ -200,7 +200,7 @@ paperSessions:
     chair: Julie Digne
     papers:
       - title: "PriFit: Learning to Fit Primitives Improves Few Shot Point Cloud Segmentation"
-        teaser: /images/default_thumbnail.jpg
+        teaser: /preview/LEARNING_CREATING/1.png
         authors:
           - name: Gopal Sharma
           - name: Bidya Dash
@@ -230,7 +230,7 @@ paperSessions:
     chair: David Bommes
     papers:
       - title: "Precise High-order Meshing of 2D Domains with Rational Bézier Curves"
-        teaser: /images/default_thumbnail.jpg
+        teaser: /preview//MESHING_PARTITIONING/1.png
         authors:
           - name: Jinlin Yang
           - name: Shibo Liu
@@ -238,7 +238,7 @@ paperSessions:
           - name: Ligang Liu
           - name: Xiao-Ming Fu
       - title: "Rational Bézier Guarding"
-        teaser: /images/default_thumbnail.jpg
+        teaser: /preview//MESHING_PARTITIONING/2.png
         authors:
           - name: Payam Khanteimouri
           - name: Manish Mandad
@@ -255,7 +255,7 @@ paperSessions:
     chair: Justin Solomon
     papers:
       - title: "Deterministic Linear Time for Maximal Poisson-Disk Sampling using Chocks without Rejection or Approximation"
-        teaser: /images/default_thumbnail.jpg
+        teaser: /preview/TOOLS_DATA/1.png
         authors:
           - name: Scott Mitchell 
       - title: "TinyAD: Automatic Differentiation in Geometry Processing Made Simple"
@@ -267,7 +267,7 @@ paperSessions:
           - name: Marcel Campen  
           - name: Leif Kobbelt
       - title: "Hex Me If You Can"
-        teaser: /images/default_thumbnail.jpg
+        teaser: /preview/TOOLS_DATA/3.png
         authors:
           - name: Pierre-Alexandre Beaufort
           - name: Maxence Reberol
