@@ -244,7 +244,7 @@ paperSessions:
           - name: Manish Mandad
           - name: Marcel Campen
       - title: "Simplification of 2D Polygonal Partitions via Point-line Projective Duality, and Application to Urban Reconstruction (CGF)"
-        teaser: /images/default_thumbnail.jpg
+        teaser: /preview//MESHING_PARTITIONING/3.png
         authors:
           - name: Julien Vuillamy
           - name: Andre Lieutier    
