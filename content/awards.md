@@ -6,19 +6,25 @@ type: "page"
 
 ## Best Paper Award
 
-[to be awarded at the ceremony in the closing session]
+**"TinyAD: Automatic Differentiation in Geometry Processing Made Simple"** (1st)  
+Patrick Schmidt,  Janis Born, David Bommes, Marcel Campen, Leif Kobbelt
+
+**"Rational Bézier Guarding"** (2nd)  
+Payam Khanteimouri, Manish Mandad, Marcel Campen
+
+**"Precise High-order Meshing of 2D Domains with Rational Bézier Curves"** (2nd)  
+Jinlin Yang, Shibo Liu, Shuangming Chai, Ligang Liu, Xiao-Ming Fu
 
 ## Software Award
 
-[to be awarded at the ceremony in the closing session]
-
-## Dataset Award
-
-[to be awarded at the ceremony in the closing session]
+**"Polyscope"**  
+Nicholas Sharp
 
 ## Test of Time Award
 
-[to be awarded at the ceremony in the closing session]
+**"As-Rigid-As-Possible Surface Modeling"**  
+Olga Sorkine-Hornung and Marc Alexa
+_Symposium on Geometry Processing, 2007_
 
 
 <!--
