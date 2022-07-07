@@ -38,9 +38,6 @@ menu:
     - name: previous_sgps
       url: /past/
       weight: 50
-    - name: register
-      url: /register/
-      weight: 60      
 Params:
   sponsorContact: "contact@geometryprocessing.org"
   submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP_2022"
@@ -357,7 +354,16 @@ Params:
            country: "USA"
     - id: awards_committee
       members:
-        - name: "[to be revealed at the award ceremony]"
+        - name: "Olga Diamanti"
+        - name: "Julie Digne"
+        - name: "Marco Livesu"
+        - name: "Amir Vaxman"
+        - name: "Mirela Ben-Chen"
+        - name: "David Coeurjolly"
+        - name: "Angela Dai"
+        - name: "Rana Hanocka"
+        - name: "Nico Pietroni"
+        - name: "Ryan Schmidt"
       #    affiliation: affiliation
       #    country: "Austria"
     - id: steering_committee

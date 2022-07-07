@@ -12,11 +12,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sgp2022.github.io/awards/</guid>
-      <description>Best Paper Award [to be awarded at the ceremony in the closing session]
-Software Award [to be awarded at the ceremony in the closing session]
-Dataset Award [to be awarded at the ceremony in the closing session]
-Test of Time Award [to be awarded at the ceremony in the closing session]
-List of previous awardees</description>
+      <description>Best Paper Award &amp;ldquo;TinyAD: Automatic Differentiation in Geometry Processing Made Simple&amp;rdquo; (1st)
+Patrick Schmidt, Janis Born, David Bommes, Marcel Campen, Leif Kobbelt
+&amp;ldquo;Rational Bézier Guarding&amp;rdquo; (2nd)
+Payam Khanteimouri, Manish Mandad, Marcel Campen
+&amp;ldquo;Precise High-order Meshing of 2D Domains with Rational Bézier Curves&amp;rdquo; (2nd)
+Jinlin Yang, Shibo Liu, Shuangming Chai, Ligang Liu, Xiao-Ming Fu
+Software Award &amp;ldquo;Polyscope&amp;rdquo;
+Nicholas Sharp
+Test of Time Award &amp;ldquo;As-Rigid-As-Possible Surface Modeling&amp;rdquo;
+Olga Sorkine-Hornung and Marc Alexa Symposium on Geometry Processing, 2007</description>
     </item>
     
     <item>
